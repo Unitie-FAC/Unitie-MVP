@@ -4,9 +4,10 @@
   "description": "Advertising platform connection Companies with University socities",
   "main": "./lib/server.js",
   "scripts": {
-    "test": "./node_modules/.bin/tape ./tests/*.js",
-    "start": "node lib/server.js",
-    "coverage": "istanbul cover ./node_modules/.bin/tape ./tests/*.js"
+    "start": "node ./lib/start.js",
+    "dev": "nodemon ./lib/start.js",
+    "test": "istanbul cover ./node_modules/.bin/tape ./test/*.js",
+    "jshint": "./node_modules/jshint/bin/jshint -c .jshintrc --exclude-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -16,13 +17,23 @@
   "license": "MIT",
   "dependencies": {
     "hapi": "^11.1.2",
+    "hoek": "^3.0.4",
     "inert": "^3.2.0",
-    "redis": "^2.4.2"
+    "redis": "^2.4.2",
+    "vision": "^4.0.1"
   },
   "devDependencies": {
     "istanbul": "^0.4.1",
+    "jshint": "^2.8.0",
+    "nodemon": "^1.8.1",
+    "path": "^0.12.7",
+    "pre-commit": "^1.1.2",
     "tape": "^4.2.2"
   },
+  "pre-commit": [
+    "jshint",
+    "test"
+  ],
   "bugs": {
     "url": "https://github.com/Unitie-FAC/Unitie-MVP/issues"
   },
