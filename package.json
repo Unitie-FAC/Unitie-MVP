@@ -2,10 +2,8 @@
   "name": "unitie",
   "version": "0.0.1",
   "description": "Advertising platform connection Companies with University socities",
-  "main": "./lib/server.js"
-}
+  "main": "./lib/server.js",
   "scripts": {
-    "coverage": "istanbul cover ./node_modules/.bin/tape ./lib/*.js"
     "start": "node ./lib/start.js",
     "dev": "nodemon ./lib/start.js",
     "test": "istanbul cover ./node_modules/.bin/tape ./test/*.js",
