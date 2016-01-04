@@ -1,0 +1,30 @@
+{
+  "name": "unitie",
+  "version": "0.0.1",
+  "description": "Advertising platform connection Companies with University socities",
+  "main": "./lib/server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/tape ./tests/*.js",
+    "start": "node lib/server.js",
+    "coverage": "istanbul cover ./node_modules/.bin/tape ./tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unitie-FAC/Unitie-MVP.git"
+  },
+  "author": "unitie-FAC",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^11.1.2",
+    "inert": "^3.2.0",
+    "redis": "^2.4.2"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.1",
+    "tape": "^4.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Unitie-FAC/Unitie-MVP/issues"
+  },
+  "homepage": "https://github.com/Unitie-FAC/Unitie-MVP#readme"
+}
