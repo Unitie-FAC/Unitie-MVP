@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./node_modules/.bin/tape ./tests/*.js",
     "start": "node lib/server.js",
-    "coverage": "istanbul cover ./node_modules/.bin/tape ./tests/*.js"
+    "coverage": "istanbul cover ./node_modules/.bin/tape ./lib/*.js"
   },
   "repository": {
     "type": "git",
