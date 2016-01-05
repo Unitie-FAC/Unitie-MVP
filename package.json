@@ -7,7 +7,8 @@
     "start": "node ./lib/start.js",
     "dev": "nodemon ./lib/start.js",
     "test": "istanbul cover ./node_modules/.bin/tape ./test/*.js",
-    "jshint": "./node_modules/jshint/bin/jshint -c .jshintrc --exclude-path .gitignore ."
+    "jshint": "./node_modules/jshint/bin/jshint -c .jshintrc --exclude-path .gitignore .",
+    "coverage": "istanbul cover ./node_modules/.bin/tape ./tests/*.js"
   },
   "repository": {
     "type": "git",
