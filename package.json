@@ -16,6 +16,7 @@
   "author": "unitie-FAC",
   "license": "MIT",
   "dependencies": {
+    "env2": "^2.0.4",
     "hapi": "^11.1.2",
     "hoek": "^3.0.4",
     "inert": "^3.2.0",
