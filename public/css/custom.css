@@ -1,6 +1,6 @@
 body{
-  background-image: url(http://blog.visafirst.com/wp-content/uploads/2014/10/2_000005300342XLarge.jpg);
-  background-size: cover;
+/*   background-image: url(http://blog.visafirst.com/wp-content/uploads/2014/10/2_000005300342XLarge.jpg);
+   */  background-size: cover;
 }
 .homeButton{
   border-radius: 25px;

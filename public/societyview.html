@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Societies</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Unitie Societies</a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">How it Works</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="aboutUs">
+        <div class="inner-container">
+            <h3>About Us</h3>
+            <p>some words in the paragraph, lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
+        </div>
+    </section>
+    <section class="howItWorks">
+        <div class="inner-container">
+            <h3>How it Works</h3>
+            <div class="col-md-3 col-lg-4 ">
+                <div class='thumbnail'>
+                    <h1>1. Do this </h1>
+                    <img src="">
+                    <button><a href="#societyForm">Register</a></button>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-4 ">
+                <div class='thumbnail'>
+                    <h1>2. then this</h1>
+                    <img src="" class="img-circle" alt="Circular Image">
+                    <button><a href="#societyForm">Register</a></button>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-4 arrangeAccess">
+                <div class='thumbnail'>
+                    <h1>3. And Finally this</h1>
+                    <img src="">
+                    <button><a href="#societyForm">Register</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="societyForm">
+        <div class="inner-container">
+           
+            <form role="form" id="societyForm">
+             	<h3>Register your society</h3>
+                <label for="Society Name">Society Name </label>
+                <input type="text" id="societyName" placeholder="Society Name" name="Society Name" value="GUFC" required>
+                <br>
+                <label for="University">University </label>
+                <input type="text" id="univeristy" name="university" placeholder="university auto/comp" value="University of Glasgow" required>
+                <br>
+                <label for="Specify other ">Specify Other </label>
+                <input type="text" id="specifyOther" placeholder="specify other institution" value="Langside college" required>
+                <br>
+                <label for="Region">Region </label>
+                <select name="Region" id="region" required>
+                    <option value="Strathclyde">Strathclyde</option>
+                    <option value="London">London</option>
+                    <option value="East Sussex">East Sussex</option>
+                </select>
+                <br>
+                <label for="Member size">Member Size</label>
+                <select name="Member size" id="region" required>
+                    <option value="0-100">0-100</option>
+                    <option value="100-200">0-200</option>
+                    <option value="200-500">200-500</option>
+                    <option value="500 +">500 +</option>
+                </select>
+                <br>
+                <label for="Email">Email</label>
+                <input type="email" id="societyEmail" placeholder="email" value="bigmumma@gmail.com" required>
+                <br>
+                <label for="cellPhone">Phone</label>
+                <input type="text" id="cellPhone" placeholder="cellPhone" value="555-7777">
+                <br>
+                <label for="about us">About Us</label>
+                <textarea>type="text area" id="aboutUs" placeholder="about us " name="about us " value="uni football team, enjoy a laugh"></textarea>
+                <br>
+                <label for="picture">Picture</label>
+                <input type="file" name="picture" placeholder="picture" accept="image/*">
+                <br>
+                <button type="button" onclick="app.sendFormData()">Submit</button>
+            </form>
+    </section>
+    </div>
+</body>
+
+</html>
