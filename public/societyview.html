@@ -68,7 +68,7 @@
     <section id="societyForm">
         <div class="inner-container">
            
-            <form role="form" action="/society" method="POST" id="societyForm">
+            <form role="form" action="/societyredis" method="POST" id="societyForm">
              	<h3>Register your society</h3>
                 <label for="Society Name">Society Name </label>
                 <input type="text" id="societyName" placeholder="Society Name" name="Society Name" value="GUFC" required>
@@ -106,7 +106,7 @@
                 <label for="picture">Picture</label>
                 <input type="file" name="picture" placeholder="picture" accept="image/*">
                 <br>
-                <button type="button" onclick="app.sendFormData()">Submit</button>
+                <button type="submit">Submit</button>
             </form>
     </section>
     </div>
