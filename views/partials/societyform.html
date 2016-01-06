@@ -1,0 +1,48 @@
+<section id="societyForm">
+    <div class="inner-container">
+
+        <form role="form" action="/societyredis" method="POST" id="societyForm">
+          <h3>Register your society</h3>
+            <label for="Society Name">Society Name </label>
+            <input type="text" id="societyName" placeholder="Society Name" name="Society Name" value="GUFC" required>
+            <br>
+            <label for="University">University </label>
+            <input type="text" id="university" name="university" placeholder="university auto/comp" value="University of Glasgow" required>
+            <br>
+            <label for="Specify other ">Specify Other </label>
+            <input type="text" id="specifyOther" placeholder="specify other institution" value="Langside college" required>
+            <br>
+            <label for="Region">Region </label>
+            <select name="Region" id="region" required>
+                <option value="Strathclyde">Strathclyde</option>
+                <option value="London">London</option>
+                <option value="East Sussex">East Sussex</option>
+            </select>
+            <br>
+            <label for="Member size">Member Size</label>
+            <select name="Member size" id="region" required>
+                <option value="0-100">0-100</option>
+                <option value="100-200">0-200</option>
+                <option value="200-500">200-500</option>
+                <option value="500 +">500 +</option>
+            </select>
+
+            <br>
+            <label for="phone"> Phone </label>
+            <input type="text" id="phone" placeholder="Phone" name="Phone" value="12312312312">
+
+
+            <br>
+            <label for="Email">Email</label>
+            <input type="email" id="societyEmail" placeholder="email" required>
+            <br>
+            <label for="about us">About Us</label>
+            <textarea>type="text area" id="aboutUs" placeholder="about us " name="about us " value="uni football team, enjoy a laugh"></textarea>
+            <br>
+            <label for="picture">Picture</label>
+            <input type="file" name="picture" placeholder="picture" accept="image/*">
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+      </div>
+</section>

@@ -2,7 +2,7 @@ var test    = require('tape');
 var path    = require('path');
 
 var redisClient = require('redis-connection')();
-var env = require('env2')('.env');
+// var env = require('env2')('.env');
 //var client = redisClient.createClient(process.env.REDIS_URL);
 
 
