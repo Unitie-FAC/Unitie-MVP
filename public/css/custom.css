@@ -1,13 +1,15 @@
 body{
-  background-image: url(http://blog.visafirst.com/wp-content/uploads/2014/10/2_000005300342XLarge.jpg);
-  background-size: cover;
+/*   background-image: url(http://blog.visafirst.com/wp-content/uploads/2014/10/2_000005300342XLarge.jpg);
+   */  background-size: cover;
 }
 .homeButton{
   border-radius: 25px;
   border: solid 1px black;
   background: rgba(255, 0, 0, 0);
   margin: 1em;
-  padding: 5px
+  padding: 5px;
+  text-decoration: none;
+  color: initial;
 }
 .inner-container{
   margin: 15em 5em;
