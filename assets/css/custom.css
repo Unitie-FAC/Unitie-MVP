@@ -14,3 +14,30 @@ body{
 .inner-container{
   margin: 15em 5em;
 }
+
+
+/*admin login basic authentication styling*/
+
+.hidden {
+  display: none;
+}
+
+#login {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  background-color: white;
+  padding-top: 30vh;
+}
+
+#loginform {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+#loginform input {
+  width: auto;
+}
