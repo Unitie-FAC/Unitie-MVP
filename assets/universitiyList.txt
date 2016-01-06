@@ -1,0 +1,143 @@
+Aberystwyth University	Aberystwyth
+Anglia Ruskin University	Cambridge ...
+Arts University Bournemouth	Poole
+Aston University	Birmingham
+Bangor University	Bangor
+Bath Spa University	Bath
+Birkbeck, University of London	London
+Birmingham City University	Birmingham
+Bishop Grosseteste University College Lincoln	Lincoln
+Bournemouth University	Poole ...
+Brunel University	Uxbridge
+Bucks New University	High Wycombe
+Canterbury Christ Church University	Canterbury ...
+Cardiff Metropolitan University	Cardiff
+Cardiff University	Cardiff
+Central School of Speech & Drama	London
+City University London	London
+Coventry University	Coventry
+Cranfield University	Cranfield ...
+De Montfort University	Leicester ...
+Durham University	Durham ...
+Edge Hill University	Ormskirk ...
+Edinburgh Napier University	Edinburgh
+European School of Economics	London ...
+Falmouth University	Falmouth
+Glasgow Caledonian University	Glasgow
+Glasgow School of Art	Glasgow
+Glyndwr University	Wrexham ...
+Goldsmiths, University of London	London
+Harper Adams University College	Newport
+Heriot-Watt University	Edinburgh ...
+Heythrop College, University of London	London
+Imperial College London	London
+Keele University	Newcastle under Lyme
+King's College London	London
+Kingston University	Kingston upon Thames
+Lancaster University	Lancaster
+Leeds Beckett University	Leeds ...
+Liverpool Hope University	Liverpool
+Liverpool John Moores University	Liverpool
+London Business School	London
+London Metropolitan University	London
+London School of Hygiene and Tropical Medicine, University of London	London
+London South Bank University	London ...
+Loughborough University	Loughborough
+Manchester Metropolitan University	Manchester ...
+Middlesex University	London
+Newcastle University	Newcastle upon Tyne
+Northumbria University	Newcastle upon Tyne
+Nottingham Trent University	Nottingham
+Oxford Brookes University	Oxford
+Plymouth University	Plymouth
+Queen Margaret University	Edinburgh ...
+Queen Mary, University of London	London
+Queen's University Belfast	Belfast
+Richmond, The American International University in London	London ...
+Roehampton University	Roehampton
+Royal Academy of Music, University of London	London
+Royal Agricultural University	Cirencester
+Royal College of Art	London
+Royal College of Music	London
+Royal Conservatoire of Scotland	Glasgow
+Royal Holloway, University of London	Egham ...
+Royal Veterinary College University of London	London ...
+School of Advanced Study, University of London	London
+School of Oriental and African Studies, University of London	London
+Scotlandâ€™s Rural College	Edinburgh ...
+Sheffield Hallam University	Sheffield
+Southampton Solent University	Southampton
+St George's, University of London	London
+Staffordshire University	Stoke-on-Trent ...
+Swansea University	Swansea
+Teesside University	Middlesbrough
+The Courtauld Institute of Art, University of London	London
+The London School of Economics and Political Science	London
+The Robert Gordon University	Aberdeen
+The University of Buckingham	Buckingham
+The University of Edinburgh	Edinburgh
+The University of Hull	Hull ...
+The University of Manchester	Manchester
+The University of Northampton	Northampton
+The University of Nottingham	Nottingham ...
+The University of Sheffield	Sheffield
+The University of Warwick	Coventry
+The University of Winchester	Winchester
+The University of York	York
+University College Birmingham	Birmingham
+University College London	London
+University for the Creative Arts	Canterbury ...
+University of Aberdeen	Aberdeen
+University of Abertay Dundee	Dundee
+University of Bath	Bath
+University of Bedfordshire	Luton ...
+University of Birmingham	Birmingham
+University of Bolton	Bolton
+University of Bradford	Bradford
+University of Brighton	Brighton
+University of Bristol	Bristol
+University of Cambridge	Cambridge
+University of Central Lancashire	Preston ...
+University of Chester	Chester ...
+University of Chichester	Chichester
+University of Cumbria	Carlisle ...
+University of Derby	Derby
+University of Dundee	Dundee
+University of East Anglia	Norwich
+University of East London	London ...
+University of Essex	Colchester ...
+University of Exeter	Exeter
+University of Glasgow	Glasgow
+University of Gloucestershire	Cheltenham ...
+University of Greenwich	Greenwich ...
+University of Hertfordshire	Hatfield ...
+University of Huddersfield	Huddersfield
+University of Kent	Canterbury ...
+University of Leeds	Leeds
+University of Leicester	Leicester
+University of Lincoln	Lincoln ...
+University of Liverpool	Liverpool
+University of London	London
+University of Oxford	Oxford
+University of Portsmouth	Portsmouth
+University of Reading	Reading
+University of Salford	Salford ...
+University of South Wales	Pontypridd ...
+University of Southampton	Southampton ...
+University of St Andrews	St Andrews
+University of Stirling	Stirling ...
+University of Strathclyde	Glasgow
+University of Sunderland	Sunderland
+University of Surrey	Guildford
+University of Sussex	Brighton
+University of the Arts London	London ...
+University of the West of England	Bristol
+University of the West of Scotland	Paisley ...
+University of Ulster	Coleraine
+University of Wales	Cardiff ...
+University of Wales Trinity Saint David	Carmarthen ...
+University of West London	Ealing ...
+University of Westminster	London
+University of Wolverhampton	Wolverhampton
+University of Worcester	Worcester
+York St John University	York
