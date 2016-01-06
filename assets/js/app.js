@@ -6,7 +6,7 @@ function previewImage(file) {
     var gallery = document.getElementById(galleryId);
     var imageType = /image.*/;
 
-    console.log('FILE', file);
+    console.log('FILE', file); ///undefined.
 
     if (!file.type.match(imageType)) {
         throw "File Type must be an image";
