@@ -1,0 +1,44 @@
+<h1>Welcome to admin</h1>
+
+<button type="button" name="society"><a href="/societydashboard">Society Dashboard</a></button>
+
+<button type="button" name="company"><a href="/companydashboard">Company Dashboard</a></button>
+
+<div id="login">
+  <form role="form" method="get" id="loginform" onsubmit="verifyUser();return false;">
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button>Submit</button>
+  </form>
+</div>
+
+<script>
+  window.onload = ReadCookie();
+  function ReadCookie() {
+    var allcookies = document.cookie;
+    cookiearray = allcookies.split(';');
+    var usercookiearr = [];
+    for(var i = 0;i<cookiearray.length;i++){
+      cookiearray[i].split('=')[0].indexOf('username') !== -1 ? usercookiearr.push(cookiearray[i].split('=')[1]) : false;
+    }
+    if (usercookiearr[0] === 'verified') {
+      document.getElementById('login').classList.add('hidden');
+    }
+  }
+  function verifyUser() {
+    var userName = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+    if (userName === 'f' && password === 'u') {
+      document.getElementById('login').classList.add('hidden');
+      var value = "verified";
+      var now = new Date();
+      var time = now.getTime();
+      time += 3600 * 100000;
+      now.setTime(time);
+      document.cookie =
+        'username=' + value +
+        '; expires=' + now.toUTCString() +
+        '; path=/';
+    }
+  }
+</script>
