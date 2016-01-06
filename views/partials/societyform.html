@@ -4,43 +4,70 @@
         <form role="form" action="/societyredis" method="POST" id="societyForm">
           <h3>Register your society</h3>
             <label for="Society Name">Society Name </label>
-            <input type="text" id="societyName" placeholder="Society Name" name="Society Name" value="GUFC" required>
+            <input type="text" id="societyName" placeholder="Society Name" name="societyName" value="GUFC" required>
             <br>
-            <label for="University">University </label>
+            <label for="University">University Name</label>
             <input type="text" id="university" name="university" placeholder="university auto/comp" value="University of Glasgow" required>
             <br>
             <label for="Specify other ">Specify Other </label>
             <input type="text" id="specifyOther" placeholder="specify other institution" value="Langside college" required>
             <br>
             <label for="Region">Region </label>
-            <select name="Region" id="region" required>
-                <option value="Strathclyde">Strathclyde</option>
+            <select name="region" id="region" required>
+                <option value="" disabled selected>Select region</option>
+                <option value="East">East</option>
+                <option value="East Midlands">East Midlands</option>
                 <option value="London">London</option>
-                <option value="East Sussex">East Sussex</option>
+                <option value="North East">North East</option>
+                <option value="North West">North West</option>
+                <option value="Northern Ireland">Northern Ireland</option>
+                <option value="Scotland">Scotland</option>
+                <option value="South East">South East</option>
+                <option value="South West">South West</option>
+                <option value="Wales">Wales</option>
+                <option value="West Midlands">West Midlands</option>
+                <option value="Yorkshire and the Humber">Yorkshire and the Humber</option>
+            </select>
+            <br>
+            <label for="Type of society">Type of society </label>
+            <select name="typeSociety" id="typeSociety" required>
+                <option value="" disabled selected>Select society type</option>
+                <option value="Academic & Employability">Academic & Employability</option>
+                <option value="Arts & Culture">Arts & Culture</option>
+                <option value="Faith & Worldview">Faith & Worldview</option>
+                <option value="Fitness & Wellbeing">Fitness & Wellbeing</option>
+                <option value="International">International</option>
+                <option value="Media">Media</option>
+                <option value="Music">Music</option>
+                <option value="Outdoor and Adventure">Outdoor and Adventure</option>
+                <option value="Political, Campaigning & Causes">Political, Campaigning & Causes</option>
+                <option value="Recreational">Recreational</option>
+                <option value="Volunteering">Volunteering</option>
+                <option value="Committee Resources">Committee Resources</option>
+                <option value="Other">Other</option>
             </select>
             <br>
             <label for="Member size">Member Size</label>
-            <select name="Member size" id="region" required>
-                <option value="0-100">0-100</option>
-                <option value="100-200">0-200</option>
-                <option value="200-500">200-500</option>
-                <option value="500 +">500 +</option>
+            <select name="memberSize" id="region" required>
+                <option value="" disabled selected>Select size</option>
+                <option value="0-50">0-50</option>
+                <option value="51-100">51-100</option>
+                <option value="101-150">101-150</option>
+                <option value="151-200">151-200</option>
+                <option value="200+">200 +</option>
             </select>
-
-            <br>
-            <label for="phone"> Phone </label>
-            <input type="text" id="phone" placeholder="Phone" name="Phone" value="12312312312">
-
-
             <br>
             <label for="Email">Email</label>
-            <input type="email" id="societyEmail" placeholder="email" required>
+            <input type="email" name="email" required>
             <br>
-            <label for="about us">About Us</label>
-            <textarea>type="text area" id="aboutUs" placeholder="about us " name="about us " value="uni football team, enjoy a laugh"></textarea>
+            <label for="phone"> Phone </label>
+            <input type="text" id="phone" placeholder="Phone" name="phone" value="12312312312">
             <br>
-            <label for="picture">Picture</label>
-            <input type="file" name="picture" placeholder="picture" accept="image/*">
+            <label for="about us">Tell us a bit about your Society</label>
+            <textarea id="about" cols="86" rows="20" name="aboutus"></textarea>
+            <br>
+            <label for="societyLogo">Society Logo</label>
+            <input type="file" name="societyLogo" placeholder="societyLogo" accept="image/*">
             <br>
             <button type="submit">Submit</button>
         </form>
