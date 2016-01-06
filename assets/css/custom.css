@@ -1,16 +1,31 @@
-body{
-/*   background-image: url(http://blog.visafirst.com/wp-content/uploads/2014/10/2_000005300342XLarge.jpg);
-   */  background-size: cover;
+body {
+    /*   background-image: url(http://blog.visafirst.com/wp-content/uploads/2014/10/2_000005300342XLarge.jpg);
+   */
+    background-size: cover;
 }
-.homeButton{
-  border-radius: 25px;
-  border: solid 1px black;
-  background: rgba(255, 0, 0, 0);
-  margin: 1em;
-  padding: 5px;
-  text-decoration: none;
-  color: initial;
+
+.homeButton {
+    border-radius: 25px;
+    border: solid 1px black;
+    background: rgba(255, 0, 0, 0);
+    margin: 1em;
+    padding: 5px;
+    text-decoration: none;
+    color: initial;
 }
-.inner-container{
-  margin: 15em 5em;
+
+.inner-container {
+    margin: 15em 5em;
+}
+
+#gallery .thumbnail {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 2px;
+}
+
+#gallery .thumbnail img {
+    width: 150px;
+    height: 150px;
 }
