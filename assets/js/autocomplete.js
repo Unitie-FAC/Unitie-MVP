@@ -12,21 +12,20 @@ function getAutocomplete(userInputId, acOutputId) {
         var request = new XMLHttpRequest();
         request.onreadystatechange = function() {
             if (request.readyState === 4) {
-                var universitiesArray = request.responseText;
-                console.log(universitiesArray);
+                var universitiesArray = JSON.parse(request.responseText);
                 var universitiesDiv = document.getElementById(acOutputId);
+             
                 universitiesDiv.innerHTML = '';
 
-               /* universitiesArray.forEach(function(word) {
+                universitiesArray.forEach(function(word) {
                     universitiesDiv.innerHTML += '<p class="" onclick="fillInput(\'' + word + '\',\''+userInputId+'\',\''+acOutputId+'\')">' + word + '</p>';
 
                 });
-*/
+
             }
         };
         request.open("GET", "/autocomplete/" + userInput, true);
         request.send();
-
     }
 }
 
