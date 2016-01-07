@@ -8,7 +8,7 @@
             <br>
             <label for="University">University Name</label>
             <input type="text" id="university" name="university" placeholder="university auto/comp" value="University of Glasgow" required>
-            <div id="universityAcList"></div>
+            <output id="universityAcList"></output>
             <br>
             <label for="Specify other ">Specify Other </label>
             <input type="text" id="specifyOther" placeholder="specify other institution" value="Langside college" required>
@@ -68,7 +68,11 @@
             <textarea id="about" cols="86" rows="20" name="aboutus"></textarea>
             <br>
             <label for="societyLogo">Society Logo</label>
-            <input type="file" name="societyLogo" placeholder="societyLogo" accept="image/*">
+            <input type="file" name="societyLogo" placeholder="societyLogo" id="fileinput" accept="image/*">
+            <progress min="0" max="100" value="0">0% complete</progress>
+            <div id="gallery"></div>
+    
+
             <br>
             <button type="submit">Submit</button>
         </form>
