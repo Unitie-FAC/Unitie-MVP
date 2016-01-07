@@ -1,40 +1,21 @@
-body {
-    /*   background-image: url(http://blog.visafirst.com/wp-content/uploads/2014/10/2_000005300342XLarge.jpg);
-   */
-    background-size: cover;
-}
-
-video#bgvid {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(../images/polina.jpg) no-repeat;
-    background-size: cover;
+html, body {
+    margin: 0;
+    padding:0;
+    height: 100%;
 }
 
 .homeButton {
     border-radius: 25px;
     border: solid 1px black;
     background: rgba(255, 0, 0, 0);
-    margin: 1em;
+    margin: 0.5em;
     padding: 5px;
     text-decoration: none;
     color: initial;
 }
-.transparent{
-  background: rgba(255, 0, 0, 0);
-}
+
 .inner-container {
-    margin: 15em 5em;
+    margin: 15em 3em;
 }
 
 #gallery .thumbnail {
@@ -76,11 +57,3 @@ video#bgvid {
   width: auto;
 }
 
-@media screen and (max-device-width: 800px) {
-    html {
-         background: url(../images/polina.jpg) #000 no-repeat center center fixed;
-    }
-    #bgvid {
-        display: none;
-    }
-}
