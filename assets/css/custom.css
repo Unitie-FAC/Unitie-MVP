@@ -4,6 +4,10 @@ html, body {
     height: 100%;
 }
 
+header { 
+  text-align: center;
+}
+
 .homeButton {
     border-radius: 25px;
     border: solid 1px black;
@@ -29,6 +33,7 @@ html, body {
     width: 150px;
     height: 150px;
 }
+
 
 
 /*admin login basic authentication styling*/
