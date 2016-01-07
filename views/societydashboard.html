@@ -1,2 +1,35 @@
 
 <h1> Society dashboard</h1>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Date</th>
+    <th>Society Name</th>
+    <th>University</th>
+    <th>Region</th>
+    <th>Type of Society</th>
+    <th>Member Size</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>About Us</th>
+    <th>Society Logo</th>
+    <th>Delete</th>
+  </tr>
+  {{#each object}}
+  <tr>
+    <td>{{this.id}}</td>
+    <td>{{this.date}}</td>
+    <td>{{this.societyName}}</td>
+    <td>{{this.university}}</td>
+    <td>{{this.region}}</td>
+    <td>{{this.typeSociety}}</td>
+    <td>{{this.memberSize}}</td>
+    <td>{{this.email}}</td>
+    <td>{{this.phone}}</td>
+    <td>{{this.aboutus}}</td>
+    <td>{{this.societyLogo}}</td>
+    <td><button></button></td>
+  </tr>
+  {{/each}}
+</table>
