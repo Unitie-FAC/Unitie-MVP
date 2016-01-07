@@ -17,6 +17,7 @@
   "author": "unitie-FAC",
   "license": "MIT",
   "dependencies": {
+    "bluebird": "^3.1.1",
     "env2": "^2.0.4",
     "handlebars": "^4.0.5",
     "hapi": "^11.1.2",
