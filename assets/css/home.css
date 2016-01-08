@@ -15,14 +15,36 @@ video#bgvid {
     background-size: cover;
 }
 
+
+#homeLogo { 
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: 1em auto;
+    padding: 0;
+    background-color: white;
+    border-radius:100%;
+}
+
 @media screen and (max-device-width: 800px) {
 
     body {
         background-image: url(../images/polina.jpg) ;
         background-size: cover;
+        background-repeat: no-repeat;
     }
   
     #bgvid {
         display: none;
+    }
+
+    #homeLogo { 
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 1em auto;
+    padding: 0;
+    background-color: white;
+    border-radius:100%;
     }
 }
