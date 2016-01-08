@@ -1,6 +1,66 @@
 
 <h1> Society dashboard</h1>
 
+<form role="form" action="/societydashboardsearch" method="POST" id="societyForm">
+
+<label for="University">University Name</label>
+<input type="text" id="university" name="university" placeholder="university auto/comp" value="University of Glasgow" >
+<output id="universityAcList"></output>
+<br>
+<label for="Region">Region </label>
+<select name="region" id="region" >
+    <option value=""  selected>Select region</option>
+    <option value="East" selected="selected">East</option>
+    <option value="East Midlands">East Midlands</option>
+    <option value="London">London</option>
+    <option value="North East">North East</option>
+    <option value="North West">North West</option>
+    <option value="Northern Ireland">Northern Ireland</option>
+    <option value="Scotland">Scotland</option>
+    <option value="South East">South East</option>
+    <option value="South West">South West</option>
+    <option value="Wales">Wales</option>
+    <option value="West Midlands">West Midlands</option>
+    <option value="Yorkshire and the Humber">Yorkshire and the Humber</option>
+</select>
+<br>
+<label for="Type of society">Type of society </label>
+<select name="typeSociety" id="typeSociety" >
+    <option value=""  selected>Select society type</option>
+    <option value="Academic & Employability" selected="selected">Academic & Employability</option>
+    <option value="Arts & Culture">Arts & Culture</option>
+    <option value="Faith & Worldview">Faith & Worldview</option>
+    <option value="Fitness & Wellbeing">Fitness & Wellbeing</option>
+    <option value="International">International</option>
+    <option value="Media">Media</option>
+    <option value="Music">Music</option>
+    <option value="Outdoor and Adventure">Outdoor and Adventure</option>
+    <option value="Political, Campaigning & Causes">Political, Campaigning & Causes</option>
+    <option value="Recreational">Recreational</option>
+    <option value="Volunteering">Volunteering</option>
+    <option value="Committee Resources">Committee Resources</option>
+    <option value="Other">Other</option>
+</select>
+<br>
+<label for="Member size">Member Size</label>
+<select name="memberSize" id="region" >
+    <option value=""  selected>Select size</option>
+    <option value="0-50" selected="selected">0-50</option>
+    <option value="51-100">51-100</option>
+    <option value="101-150">101-150</option>
+    <option value="151-200">151-200</option>
+    <option value="200+">200 +</option>
+</select>
+<br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+
+
+
+
 <table>
   <tr>
     <th>ID</th>
@@ -29,7 +89,8 @@
     <td>{{this.phone}}</td>
     <td>{{this.aboutus}}</td>
     <td>{{this.societyLogo}}</td>
-    <td><button type="button" name="button"><a href="/delete/{{this.id}}" >Delete</a></button></td>
+    <td><button type="button" name="button" id="deleteSociety"><a href="/delete/{{this.id}}" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
+</button></td>
   </tr>
   {{/each}}
 </table>
