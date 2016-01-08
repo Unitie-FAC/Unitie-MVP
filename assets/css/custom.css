@@ -8,15 +8,7 @@ header {
   text-align: center;
 }
 
-.homeButton {
-    border-radius: 25px;
-    border: solid 1px black;
-    background: rgba(255, 0, 0, 0);
-    margin: 0.5em;
-    padding: 5px;
-    text-decoration: none;
-    color: initial;
-}
+
 
 .inner-container {
     margin: 15em 3em;
