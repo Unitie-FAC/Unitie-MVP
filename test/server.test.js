@@ -3,10 +3,6 @@ var path    = require('path');
 
 // var env = require('env2')('.env');
 // var redisClient = require('redis-connection')();
-// redisClient.set('hello', 'world');
-// redisClient.get('hello', function (err, reply) {
-//   console.log('hello', reply.toString()); // hello world
-// });
 
 //var client = redisClient.createClient(process.env.REDIS_URL);
 // var redisClient = require('redis');
@@ -72,6 +68,7 @@ test(file + " GET / returns status 200", function(t) {
   });
 });
 
+// This test will not pass as the redis connection remains open. We cannot fathom why two connections are made here
 // test(file + " POST / returns status 200", function(t) {
 //   var options = {
 //     method  : "POST",
