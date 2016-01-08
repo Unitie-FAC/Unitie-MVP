@@ -1,90 +1,95 @@
 <link rel="stylesheet" type="text/css" href="../assets/css/company.css">
+
 <body>
-<header>
+  <header>
     {{>navigation}}
-</header>
-<section id="intro">
+  </header>
+  <section id="intro">
     <div class="inner-container">
-        <h3>Intro</h3>
-        <p>some words in the paragraph, lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
+      <h3>Intro</h3>
+      <p>some words in the paragraph, lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
     </div>
-</section>
-<section id="aboutUs">
-    <div class="inner-container">
-        <img src="">        
-    </div>
-</section>
-<section id="howItWorks">
-    <div class="inner-container">
-        <h3>How it Works</h3>
-        <div class="col-md-3 col-lg-4 ">
-            <div class='thumbnail'>
-                <h1>1. Do this </h1>
-                <img src="">
-                <button><a href="#societyForm">Register</a></button>
-            </div>
-        </div>
-        <div class="col-md-3 col-lg-4 ">
-            <div class='thumbnail'>
-                <h1>2. then this</h1>
-                <img src="" class="img-circle" alt="Circular Image">
-                <button><a href="#societyForm">Register</a></button>
-            </div>
-        </div>
-        <div class="col-md-3 col-lg-4 arrangeAccess">
-            <div class='thumbnail'>
-                <h1>3. And Finally this</h1>
-                <img src="">
-                <button><a href="#societyForm">Register</a></button>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="services">
-    <div class="inner-container" >
-        <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid provident, est obcaecati temporibus earum maiores qui, saepe vero amet voluptate quidem fugit, hic reprehenderit veniam deleniti dolores ea repudiandae non?</article>
-        <ul>
-            <li><i class="img-circle"></i></li>
-            <li><i class="img-circle"></i></li>
-            <li><i class="img-circle"></i></li>
-            <li><i class="img-circle"></i></li>
-            <li><i class="img-circle"></i></li>
-    s    </ul>
+  </section>
 
-   
-    </div>
-</section>
-<section id="caseStudies">
+
+  <section id="caseStudies">
     <div class="inner-container">
-        <div class="row">
-            <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium quis illum rem dignissimos saepe. Repellat, fuga eligendi laborum enim labore eius quod perspiciatis harum, ratione sequi, possimus laudantium odit.</article>
-        </div>
-        <div class="row">
-              <div class="col-md-3 col-lg-4 ">
-            <div class='thumbnail'>
-                <h1>1. Do this </h1>
-                <img src="">
-             
-            </div>
-        </div>
-        <div class="col-md-3 col-lg-4 ">
-            <div class='thumbnail'>
-                <h1>2. then this</h1>
-                <img src="" class="img-circle" alt="Circular Image">
-
-            </div>
-        </div>
-        <div class="col-md-3 col-lg-4 arrangeAccess">
-            <div class='thumbnail'>
-                <h1>3. And Finally this</h1>
-                <img src="">
-        
-            </div>
-        </div>
-
-        </div>
+        <h1 class"text-center">CASE STUDIES</h1>
+      <div class="row">
+        <article class="col-xs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid provident, est obcaecati temporibus earum maiores qui, saepe vero amet voluptate quidem fugit, hic reprehenderit veniam deleniti dolores ea repudiandae non?</article>
+        <img class="col-xs-6" src="assets/images/casestudies2.jpg">
+      </div>
+      <div class="row" id="impressions">
+        <h6 class="col-xs-4 text-center">18 MILLION MENTIONS</h6>
+          <h6 class="col-xs-4 text-center">2 BILLION CONNECTIONS</h6>
+            <h6 class="col-xs-4 text-center">99 TRILLION LIKES</h6>
+      </div>
     </div>
-    
-</section>
-{{>companyform}}
+  </section>
+  </section>
+  <section id="aboutUs">
+    <h1 class"text-center">ABOUT US</h1>
+    <div class="inner-container">
+      <img src="assets/images/aboutus.png" />
+    </div>
+  </section>
+  <section id="howItWorks">
+    <div class="inner-container">
+      <h1 class="text-center">HOW IT WORKS</h1>
+      <div class="col-md-3 col-lg-4 ">
+        <div class='thumbnail'>
+          <img src="assets/images/Collaboration.png" class="img-circle" alt="Circular Image">
+          <h3>1. Collaboration </h3>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-4 ">
+        <div class='thumbnail'>
+          <img src="assets/images/Create.png" class="img-circle" alt="Circular Image">
+          <h3>2. Manage </h3>
+          <button><a href="#societyForm">Register</a></button>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-4 arrangeAccess">
+        <div class='thumbnail'>
+          <img src="assets/images/Manage.png" class="img-circle" alt="Circular Image">
+          <h3>3.Creation</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services">
+    <div class="inner-container">
+      <div class="row" id="rowServices">
+      <h1 class="text-center">SERVICES</h1>
+      </div>
+      <div class="row">
+        <article class="col-xs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid provident, est obcaecati temporibus earum maiores qui, saepe vero amet voluptate quidem fugit, hic reprehenderit veniam deleniti dolores ea repudiandae non?</article>
+        <ul class="col-xs-6">
+          <li>
+            <img src="assets/images/light-bulb10.png" />
+          </li>
+          <br>
+          <li>
+            <img src="assets/images/light-bulb10.png" />
+          </li>
+          <br>
+          <li>
+            <img src="assets/images/light-bulb10.png" />
+          </li>
+          <br>
+          <li>
+            <img src="assets/images/light-bulb10.png" />
+          </li>
+          <br>
+          <li>
+            <img src="assets/images/light-bulb10.png" />
+          </li>
+          <br>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  {{>companyform}}
 </body>

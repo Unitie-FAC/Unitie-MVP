@@ -1,4 +1,15 @@
 #intro {
-	background: url(../images/brandHome.jpg);
-	
+  background: url(../images/brandHome.jpg);
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+}
+#impressions {
+  margin-top: 2em;
+}
+
+#rowServices {
+  margin: 2em 2em;
 }

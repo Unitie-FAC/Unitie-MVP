@@ -2,9 +2,10 @@ html, body {
     margin: 0;
     padding:0;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
-header { 
+header {
   text-align: center;
 }
 
@@ -61,4 +62,3 @@ header {
 #loginform input {
   width: auto;
 }
-
