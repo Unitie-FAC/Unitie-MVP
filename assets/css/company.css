@@ -1,6 +1,4 @@
-#intro {
 
-}
 
 .introText {
 	text-align: center;
@@ -22,3 +20,19 @@
 	height:40em;
 
 }
+
+  background: url(../images/brandHome.jpg);
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+}
+#impressions {
+  margin-top: 2em;
+}
+
+#rowServices {
+  margin: 2em 2em;
+}
+

@@ -42,5 +42,8 @@
   "bugs": {
     "url": "https://github.com/Unitie-FAC/Unitie-MVP/issues"
   },
+  "engines": {
+    "node": "5.1.0"
+  },
   "homepage": "https://github.com/Unitie-FAC/Unitie-MVP#readme"
 }
