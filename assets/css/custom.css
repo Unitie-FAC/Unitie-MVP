@@ -9,7 +9,33 @@ header {
   text-align: center;
 }
 
+.inner-container { 
+  margin:0 4em;
+  text-align: auto;
+}
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: white;
+  color: black;
+}
+.navColor *,.navbar-default, .navbar-brand,  .navbar { 
+    background-color: white;
+    color: black;
+}
+.navColor a { 
+    background-color: white;
+    color: black;
+}
+
+#navTitle {
+      background-color: white;
+    color: black;
+}
+
+.title { 
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 
 /* .inner-container {
     margin: 15em 3em;

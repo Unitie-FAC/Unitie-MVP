@@ -21,8 +21,6 @@
 
 }
 
-  background: url(../images/brandHome.jpg);
-}
 ul {
   list-style-type: none;
   text-align: center;
@@ -32,7 +30,11 @@ ul {
   margin-top: 2em;
 }
 
-#rowServices {
-  margin: 2em 2em;
+#servicesTitle {
+  text-align: center;
+  margin:0 auto;
+  position: relative;
+  display: block;
+  margin-left: -20em;
 }
 
