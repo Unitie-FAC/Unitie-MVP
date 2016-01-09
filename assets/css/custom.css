@@ -9,20 +9,38 @@ header {
   text-align: center;
 }
 
-.homeButton {
-    border-radius: 25px;
-    border: solid 1px black;
-    background: rgba(255, 0, 0, 0);
-    margin: 0.5em;
-    padding: 5px;
-    text-decoration: none;
-    color: initial;
+.inner-container { 
+  margin:0 4em;
+  text-align: auto;
 }
 
-.inner-container {
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: white;
+  color: black;
+}
+.navColor *,.navbar-default, .navbar-brand,  .navbar { 
+    background-color: white;
+    color: black;
+}
+.navColor a { 
+    background-color: white;
+    color: black;
+}
+
+#navTitle {
+      background-color: white;
+    color: black;
+}
+
+.title { 
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* .inner-container {
     margin: 15em 3em;
 }
-
+ */
 #gallery .thumbnail {
     width: 150px;
     height: 150px;

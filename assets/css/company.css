@@ -1,6 +1,26 @@
-#intro {
-  background: url(../images/brandHome.jpg);
+
+
+.introText {
+	text-align: center;
+	padding-top: 15em;
+	color: white;
+	margin: 0 4em;
+
 }
+
+.bannerImage {
+	background: url(../images/brandHome.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	position: relative;
+	margin:0;
+	padding :0;
+	height:45em;
+
+}
+
 ul {
   list-style-type: none;
   text-align: center;
@@ -10,6 +30,11 @@ ul {
   margin-top: 2em;
 }
 
-#rowServices {
-  margin: 2em 2em;
+#servicesTitle {
+  text-align: center;
+  margin:0 auto;
+  position: relative;
+  display: block;
+  margin-left: -20em;
 }
+

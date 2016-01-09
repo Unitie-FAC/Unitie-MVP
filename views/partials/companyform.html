@@ -1,83 +1,79 @@
-<section id="registerCompany">
+<section id="register">
     <div class="inner-container">
         <form role="form" method="post" action="/companyredis" onsubmit="">
-            <h3>Company Form</h3>
-            <label for="companyName">Company Name</label>
-            <input type="text" name="companyName" value="companyX" required>
-            <br>
-            <label for="industryType">Industry Type</label>
-            <select name="industryType" id="industry" required>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-            </select>
-            <br>
-            <label for="contactName">Contact Name</label>
-            <input type="text" name="contactName" value="Mr B Riddle" required>
-            <br>
-            <label for="email">Email</label>
-            <input type="email" name="email" value="companyX@X.com" required>
-            <br>
-            <label for="phone">Phone</label>
-            <input type="text" id="phone" placeholder="" value="07723469914">
-            <br>
-            <label for="target region1">
-                <input type="checkbox" name="targetRegion1" id="targetRegion1" checked>Target Region1
-            </label>
-            <br>
-            <label for="target region2">
-                <input type="checkbox" name="targetRegion2" id="targetRegion2" checked>Target Region2
-            </label>
-            <br>
-            <label for="target region3">
-                <input type="checkbox" name="targetRegion3" id="targetRegion3" checked>Target Region3
-            </label>
-            <br>
-            <label for="target region4">
-                <input type="checkbox" name="targetRegion4" id="targetRegion4" checked>Target Region4
-            </label>
-            <br>
-            <label for="target region5">
-                <input type="checkbox" name="targetRegion5" id="targetRegion5" checked>Target Region5
-            </label>
-            <br>
-            <label for="target region6">
-                <input type="checkbox" name="targetRegion6" id="targetRegion6" checked>Target Region6
-            </label>
-            <br>
-            <label for="society type1">
-                <input type="checkbox" name="societyType1" id="societyType1" checked>Society Type1
-            </label>
-            <br>
-            <label for="society type2">
-                <input type="checkbox" name="societyType2" id="societyType2" checked>Society Type2
-            </label>
-            <br>
-            <label for="society type3">
-                <input type="checkbox" name="societyType3" id="societyType3" checked>Society Type3
-            </label>
-            <br>
-            <label for="society type4">
-                <input type="checkbox" name="societyType1" id="societyType4" checked>Society Type4
-            </label>
-            <br>
-            <label for="society type5">
-                <input type="checkbox" name="societyType5" id="societyType5" checked>Society Type5
-            </label>
-            <br>
-            <label for="society type6">
-                <input type="checkbox" name="societyType1" id="societyType6" checked>Society Type6
-            </label>
-            <br>
-    </div>
-    <div class="half-width clear-fix checkbox-container">
-        <button type="submit" class="btn btn-default">Submit</button>
+            <h1 class="text-center">COMPANY FORM</h1>
+            <div class="form-group">
+                <label for="companyName">Company Name</label>
+                <input type="text" name="companyName" value="companyX" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="industryType">Industry Type</label>
+                <select name="industryType" id="industry" class="form-control" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="contactName">Contact Name</label>
+                <input type="text" name="contactName" value="Mr B Riddle" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" value="companyX@X.com" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" placeholder="" class="form-control" value="07723469914">
+            </div>
+            <div class="form-group">
+                <label for="target region1" class="checkbox-inline">
+                    <input type="checkbox" name="targetRegion1" id="targetRegion1" checked>Target Region1
+                </label>
+                <label for="target region2" class="checkbox-inline">
+                    <input type="checkbox" name="targetRegion2" id="targetRegion2" checked>Target Region2
+                </label>
+                <label for="target region3" class="checkbox-inline">
+                    <input type="checkbox" name="targetRegion3" id="targetRegion3" checked>Target Region3
+                </label>
+                <label for="target region4" class="checkbox-inline">
+                    <input type="checkbox" name="targetRegion4" id="targetRegion4" checked>Target Region4
+                </label>
+                <label for="target region5" class="checkbox-inline">
+                    <input type="checkbox" name="targetRegion5" id="targetRegion5" checked>Target Region5
+                </label>
+                <label for="target region6" class="checkbox-inline">
+                    <input type="checkbox" name="targetRegion6" id="targetRegion6" checked>Target Region6
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="society type1" class="checkbox-inline">
+                    <input type="checkbox" name="societyType1" id="societyType1" checked>Society Type1
+                </label>
+                <label for="society type2"class="checkbox-inline">
+                    <input type="checkbox" name="societyType2" id="societyType2" checked>Society Type2
+                </label>
+                <label for="society type3"class="checkbox-inline">
+                    <input type="checkbox" name="societyType3" id="societyType3" checked>Society Type3
+                </label>
+                <label for="society type4" class="checkbox-inline">
+                    <input type="checkbox" name="societyType1" id="societyType4" checked>Society Type4
+                </label>
+                <label for="society type5" class="checkbox-inline">
+                    <input type="checkbox" name="societyType5" id="societyType5" checked>Society Type5
+                </label>
+                <label for="society type6" class="checkbox-inline">
+                    <input type="checkbox" name="societyType1" id="societyType6" checked>Society Type6
+                </label>
+            </div>
+            <div class="half-width clear-fix checkbox-container">
+                <button type="submit" class="btn btn-default">Submit</button>
         </form>
-    </div>
+     </div>
 </section>
