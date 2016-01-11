@@ -5,6 +5,8 @@ img {
     height: auto;
 }
 
+
+
 .societyBannerImage {
     background: url(../images/studentsInLectureTheatreFaded.jpg);
     background-size: cover;
@@ -29,16 +31,34 @@ img {
     font-weight: bold;
 }
 
-#register form {
+.introText h2 {
+    font-weight: bold
+}
+
+#register h1 {
+	color: white;
+	padding-top:1em;
+}
+#register {
     background-color: blue;
+ 	width:100%;
+
+}
+#register form {
+    background-color:#00dd33;
+    background-image: linear-gradient(green, yellow);
     padding: 2em;
     margin: 1em;
     border-radius: 15px;
-    color: white;
+    color: black;
 }
 
 #register button {
     color: blue;
     font-size: 2em;
     padding: 0, 25em;
+}
+
+.inner-container {
+	padding-bottom: 2em;
 }
