@@ -1,46 +1,79 @@
-
 <link rel="stylesheet" type="text/css" href="assets/css/society.css">
-<body>
-<header>
-{{>navigation}}
-</header>
 
-<section id="intro">
-  <div class="inner-container">
-    <h3>Intro</h3>
-    <p>some words in the paragraph, lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
-  </div>
-</section>
-<section id="howItWorks">
-<div class="inner-container">
-  <h1 class="text-center">HOW IT WORKS</h1>
-  <div class="col-md-3 col-lg-4 ">
-    <div class='thumbnail'>
-      <img src="assets/images/Collaboration.png" class="img-circle" alt="Circular Image">
-      <h3>1. Collaboration </h3>
+<body>
+    <header>
+        {{>navigation}}
+    </header>
+    <section id="intro">
+        <div class="row inner-container">
+            <h3>Intro</h3>
+            <p>some words in the paragraph, lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
+        </div>
+    </section>
+
+    
+     <section id="howItWorks">
+    <h1 class="text-center title">HOW IT WORKS</h1>
+    <div class="container" id="services">
+      <!-- Example row of columns -->
+      <div class="row features">
+        <div class="col-lg-4 text-center">
+          <div class="single-fet">
+            <div>
+              <span class="icon-stack icon-4x">
+                <img src="assets/images/Manage.png" class="img-circle" alt="Circular Image">
+              </span>
+            </div>
+            <h2>With Bootstrap
+              <span class="label label-warning">3.0</span>
+            </h2>
+
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. </p>
+
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          <div class="single-fet">
+            <div>
+              <span class="icon-stack icon-4x">
+                <img src="assets/images/Create.png" class="img-circle" alt="Circular Image">
+              </span>
+            </div>
+            <h2>Fully Responsive</h2>
+
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. </p>
+
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          <div class="single-fet">
+            <div>
+              <span class="icon-stack icon-4x">
+                <img src="assets/images/Collaboration.png" class="img-circle" alt="Circular Image">
+              </span>
+            </div>
+            <h2>And Totally
+              <span style="color:#248822">Free</span>
+            </h2>
+
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. </p>
+
+          </div>
+        </div>
+
+      </div>
+
+
     </div>
-  </div>
-  <div class="col-md-3 col-lg-4 ">
-    <div class='thumbnail'>
-      <img src="assets/images/Create.png" class="img-circle" alt="Circular Image">
-      <h3>2. Manage </h3>
-      <button><a href="#societyForm">Register</a></button>
-    </div>
-  </div>
-  <div class="col-md-3 col-lg-4 arrangeAccess">
-    <div class='thumbnail'>
-      <img src="assets/images/Manage.png" class="img-circle" alt="Circular Image">
-      <h3>3.Creation</h3>
-    </div>
-  </div>
-</div>
-</section>
-<section id="aboutUs">
-  <h1 class"text-center">ABOUT US</h1>
-  <div class="inner-container">
-    <img src="assets/images/aboutus.png" />
-  </div>
-</section>
-{{>societyform}}
+  </section>
+    <section id="aboutUs">
+        <div class="row inner-container">
+            <h1 class="text-center title">ABOUT US</h1>
+            <div class="text-center">
+              <img src="assets/images/aboutus.png" />
+            </div>
+        </div>
+    </section>
+    {{>societyform}}
 </body>
 {{>footer}}
