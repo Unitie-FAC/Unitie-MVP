@@ -15,7 +15,7 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(../images/polina.jpg) no-repeat;
+    background: url(../images/firstframe.png) no-repeat;
     background-size: cover;
 }
 
@@ -60,8 +60,9 @@ a {
 
 @media screen and (max-device-width: 800px) {
     body {
-        background-image: url(../images/polina.jpg);
+        background-image: url(../images/firstframe.png);
         background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
     }
     #bgvid {
