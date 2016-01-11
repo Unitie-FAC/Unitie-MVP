@@ -81,7 +81,21 @@ header {
   width: auto;
 }
 
+#contactList{
+  margin:2em;
+  list-style: none;
+}
+#contactList li a {
+  color:black;
+  font-size: 3em;
+  text-decoration: none;
+
+
+
+}
+
 footer {
-height:10em;
+    margin: 4em;
+    height:10em;
 
 }
