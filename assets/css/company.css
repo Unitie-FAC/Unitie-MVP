@@ -1,4 +1,9 @@
-
+img {
+  border-style: none;
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
 
 .introText {
 	text-align: center;
@@ -37,4 +42,3 @@ ul {
   display: block;
   margin-left: -20em;
 }
-
