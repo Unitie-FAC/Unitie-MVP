@@ -4,3 +4,28 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+.societyBannerImage {
+	background: url(../images/studentsInLectureTheatreFaded.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	position: relative;
+	margin:0;
+	padding :0;
+	height:45em;
+	
+/* 	background-image:linear-gradient(red, #f06d06);
+ */
+}
+
+
+.introText {
+	text-align: center;
+	padding-top: 15em;
+	color: white;
+	margin: 0 4em;
+	
+}
