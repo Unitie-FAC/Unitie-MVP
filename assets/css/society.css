@@ -1,31 +1,44 @@
 img {
-  border-style: none;
-  vertical-align: top;
-  max-width: 100%;
-  height: auto;
+    border-style: none;
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
 }
-
 
 .societyBannerImage {
-	background: url(../images/studentsInLectureTheatreFaded.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	display: block;
-	position: relative;
-	margin:0;
-	padding :0;
-	height:45em;
-	
-/* 	background-image:linear-gradient(red, #f06d06);
- */
+    background: url(../images/studentsInLectureTheatreFaded.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 45em;
 }
 
-
 .introText {
-	text-align: center;
-	padding-top: 15em;
-	color: white;
-	margin: 0 4em;
-	
+    text-align: center;
+    padding-top: 15em;
+    color: white;
+    margin: 0 4em;
+}
+
+.introText h1 {
+    color: blue;
+    font-weight: bold;
+}
+
+#register form {
+    background-color: blue;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 15px;
+    color: white;
+}
+
+#register button {
+    color: blue;
+    font-size: 2em;
+    padding: 0, 25em;
 }
