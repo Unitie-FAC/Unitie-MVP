@@ -5,6 +5,38 @@ img {
   height: auto;
 }
 
+media screen and (max-width: 299px) {
+    .whyus-icon-size {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 799px) {
+    .whyus-icon-size {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .whyus-icon-size {
+        font-size: 4em;
+    }
+}
+
+
+.img-fillcircle {
+  background: url(../images/people.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  position: relative;
+  margin:0;
+  padding :0;
+  height:45em;
+}
+
+
 .introText {
 	text-align: center;
 	padding-top: 15em;
