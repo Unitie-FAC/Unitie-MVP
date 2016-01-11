@@ -31,6 +31,10 @@ img {
     font-weight: bold;
 }
 
+.introText h2 {
+    font-weight: bold
+}
+
 #register h1 {
 	color: white;
 	padding-top:1em;
