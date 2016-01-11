@@ -2,75 +2,88 @@
 
 <body>
     <header>
-        {{>navigation}}
+        <nav class="navbar navbar-default navbar-fixed-top navColour">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/"><span id="navTitle" >Unitie</span></a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#intro">Home</a></li>
+                        <li><a href="#aboutUs">About Us</a></li>
+                        <li><a href="#howItWorks">How Unitie Works</a></li>
+                        <li><a href="#register">Sign Up</a></li>
+                        <li><a href="#contactUs">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <section id="intro">
-        <div class="row inner-container">
-            <h3>Intro</h3>
-            <p>some words in the paragraph, lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
+        <div class="societyBannerImage">
+            <div class="introText">
+                <h1>200+ Brands. One Platform</h1>
+                <h3>Find sponsors for your society and events</h3>
+            </div>
         </div>
     </section>
+    <section id="howItWorks">
+        <h1 class="text-center title">HOW IT WORKS</h1>
+        <div class="container" id="services">
+            <!-- Example row of columns -->
+            <div class="row features">
+               <div class="col-lg-4 text-center">
+                 <div class="single-fet">
+                        <div>
+                            <span class="icon-stack icon-4x">
+                                <img src="assets/images/Create.png" class="img-circle" alt="Circular Image">
+                            </span>
+                        </div>
+                        <h2>Create your Campaign</h2>
+                        <p>Tell us about your society and we’ll help you build a successful sponsorship campaign. Whether it’s sponsorship for the whole year or for a one off event, our team have you covered</p>
+                    </div>
+               
+                   
+                </div>
+                <div class="col-lg-4 text-center">
+                     <div class="single-fet">
+                        <div>
+                            <span class="icon-stack icon-4x">
+                                <img src="assets/images/Collaboration.png" class="img-circle" alt="Circular Image">
+                            </span>
+                        </div>
+                        <h2>Match With Brands </h2>
+                        <p>Our platform will help you source sponsorship partners, based on your society’s details. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="single-fet">
+                        <div>
+                            <span class="icon-stack icon-4x text-center">
+                                 <img src="assets/images/Manage.png" class="img-circle" alt="Circular Image">
+                             </span>
+                        </div>
+                        <h2>Manage Your Campaign
+                            <span class="label label-warning">3.0</span>
+                        </h2>
+                        <p>Use our platform to manage all the details of your sponsorship agreements and share the activities of your society with your sponsors</p>
+                    </div>
+                </div>
 
-    
-     <section id="howItWorks">
-    <h1 class="text-center title">HOW IT WORKS</h1>
-    <div class="container" id="services">
-      <!-- Example row of columns -->
-      <div class="row features">
-        <div class="col-lg-4 text-center">
-          <div class="single-fet">
-            <div>
-              <span class="icon-stack icon-4x">
-                <img src="assets/images/Manage.png" class="img-circle" alt="Circular Image">
-              </span>
             </div>
-            <h2>With Bootstrap
-              <span class="label label-warning">3.0</span>
-            </h2>
-
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. </p>
-
-          </div>
         </div>
-        <div class="col-lg-4 text-center">
-          <div class="single-fet">
-            <div>
-              <span class="icon-stack icon-4x">
-                <img src="assets/images/Create.png" class="img-circle" alt="Circular Image">
-              </span>
-            </div>
-            <h2>Fully Responsive</h2>
-
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. </p>
-
-          </div>
-        </div>
-        <div class="col-lg-4 text-center">
-          <div class="single-fet">
-            <div>
-              <span class="icon-stack icon-4x">
-                <img src="assets/images/Collaboration.png" class="img-circle" alt="Circular Image">
-              </span>
-            </div>
-            <h2>And Totally
-              <span style="color:#248822">Free</span>
-            </h2>
-
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. </p>
-
-          </div>
-        </div>
-
-      </div>
-
-
-    </div>
-  </section>
+    </section>
     <section id="aboutUs">
         <div class="row inner-container">
             <h1 class="text-center title">ABOUT US</h1>
             <div class="text-center">
-              <img src="assets/images/aboutus.png" />
+                <img src="assets/images/aboutusSocietyContent.png" />
+                <h3> We help student societies collaborate with brands to get sponsorship</h3>
             </div>
         </div>
     </section>

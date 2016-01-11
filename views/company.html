@@ -2,27 +2,37 @@
 
 <body>
   <header>
-    {{>navigation}}
+    <nav class="navbar navbar-default navbar-fixed-top navColour">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <span id="navTitle">Unitie</span>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#intro">Home</a></li>
+            <li><a href="#aboutUs">About Us</a></li>
+            <li><a href="#services">Why us</a></li>
+            <li><a href="#howItWorks">How Unitie Works</a></li>
+            <li><a href="#caseStudies">Our Work</a></li>
+            <li><a href="#register">Sign Up</a></li>
+            <li><a href="#contactUs">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <section id="intro">
-    <div class="bannerImage">
+    <div class="companyBannerImage">
       <div class="introText">
-        <h1>Intro</h1>
-        <h4>>some words in the paragraph, lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</h4>
-      </div>
-    </div>
-  </section>
-  <section id="caseStudies">
-    <div class="inner-container">
-      <div class="row">
-        <h1 class="text-center title">CASE STUDIES</h1>
-        <article class="col-xs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid provident, est obcaecati temporibus earum maiores qui, saepe vero amet voluptate quidem fugit, hic reprehenderit veniam deleniti dolores ea repudiandae non?</article>
-        <img class="col-xs-6" src="assets/images/casestudies2.jpg">
-      </div>
-      <div class="row" id="impressions">
-        <h6 class="col-xs-4 text-center">18 MILLION MENTIONS</h6>
-        <h6 class="col-xs-4 text-center">2 BILLION CONNECTIONS</h6>
-        <h6 class="col-xs-4 text-center">99 TRILLION LIKES</h6>
+        <h1 id="introHeader">3 Million Students One Platform</h1>
+        <h4>Increase your engagement with the student demographic</h4>
       </div>
     </div>
   </section>
@@ -32,10 +42,112 @@
       <img src="assets/images/aboutus.png" />
     </div>
   </section>
+  <!-- <section id="services">
+    <h1 class="text-center title">WHY US</h1>
+    <div class="inner-container row">
 
+
+
+      <article class="col-xs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid provident, est obcaecati temporibus earum maiores qui, saepe vero amet voluptate quidem fugit, hic reprehenderit veniam deleniti dolores ea repudiandae non?</article>
+      <ul class="col-xs-6">
+        <li>
+          <img src="assets/images/light-bulb10.png" />
+        </li>
+        <br>
+        <li>
+          <img src="assets/images/light-bulb10.png" />
+        </li>
+        <br>
+        <li>
+          <img src="assets/images/light-bulb10.png" />
+        </li>
+        <br>
+        <li>
+          <img src="assets/images/light-bulb10.png" />
+        </li>
+        <br>
+        <li>
+          <img src="assets/images/light-bulb10.png" />
+        </li>
+        <br>
+      </ul>
+
+    </div>
+  </section> -->
+  <!-- About Section -->
+ <section id="about">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-12 text-center">
+         <h2 class="section-heading">How it works</h2>
+
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-lg-12">
+         <ul class="timeline">
+           <li>
+             <div class="timeline-image">
+               <img class="img-circle img-responsive" src="assets/images/Create.png" alt="">
+             </div>
+             <div class="timeline-panel">
+               <div class="timeline-heading">
+                 <h4>How it works</h4>
+               </div>
+               <div class="timeline-body">
+                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid provident, est</p>
+               </div>
+             </div>
+           </li>
+           <li class="timeline-inverted">
+             <div class="timeline-image">
+               <img class="img-circle img-responsive img-rach" src="img/invest.jpeg" alt="">
+             </div>
+             <div class="timeline-panel">
+               <div class="timeline-heading">
+                 <h4>How it works</h4>
+               </div>
+               <div class="timeline-body">
+                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid provident, est</p>
+               </div>
+             </div>
+           </li>
+           <li>
+             <div class="timeline-image">
+               <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+             </div>
+             <div class="timeline-panel">
+               <div class="timeline-heading">
+                 <h4>Analyse</h4>
+
+               </div>
+               <div class="timeline-body">
+                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid provident, est</p>
+               </div>
+             </div>
+           </li>
+           <li class="timeline-inverted">
+             <div class="timeline-image">
+               <img class="img-circle img-responsive" src="assets/images/Create.png" alt="">
+             </div>
+             <div class="timeline-panel">
+               <div class="timeline-heading">
+                 <h4>How it works</h4>
+
+               </div>
+               <div class="timeline-body">
+                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid provident, est</p>
+               </div>
+             </div>
+           </li>
+         </ul>
+       </div>
+     </div>
+   </div>
+ </section>
 
   <section id="howItWorks">
-    <h1 class="text-center title">HOW IT WORKS</h1>
+    <h1 class="text-center title">HOW UNITIE WORKS</h1>
     <div class="container" id="services">
       <!-- Example row of columns -->
       <div class="row features">
@@ -43,27 +155,13 @@
           <div class="single-fet">
             <div>
               <span class="icon-stack icon-4x">
-                <img src="assets/images/Manage.png" class="img-circle" alt="Circular Image">
-              </span>
-            </div>
-            <h2>With Bootstrap
-              <span class="label label-warning">3.0</span>
-            </h2>
-
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. </p>
-
-          </div>
-        </div>
-        <div class="col-lg-4 text-center">
-          <div class="single-fet">
-            <div>
-              <span class="icon-stack icon-4x">
                 <img src="assets/images/Create.png" class="img-circle" alt="Circular Image">
+
               </span>
             </div>
-            <h2>Fully Responsive</h2>
+            <h2>1. Create Your Campaign</h2>
 
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. </p>
+            <p>Tell us about your brand and we’ll help you build a successful campaign. Whether it’s sample distribution, generating social media activity or simply maintaining your on-campus presence, our team have you covered!</p>
 
           </div>
         </div>
@@ -74,11 +172,24 @@
                 <img src="assets/images/Collaboration.png" class="img-circle" alt="Circular Image">
               </span>
             </div>
-            <h2>And Totally
-              <span style="color:#248822">Free</span>
+            <h2>2. Collaborate with Societies</h2>
+
+            <p>Our clever platform will help you find the perfect society partner, based on your brand and your campaign.’ underneath ‘Collaborate with Societies</p>
+
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          <div class="single-fet">
+            <div>
+              <span class="icon-stack icon-4x">
+                <img src="assets/images/Manage.png" class="img-circle" alt="Circular Image">
+              </span>
+            </div>
+            <h2>3. Manage Your Campaign
+
             </h2>
 
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. </p>
+            <p>Use our platform to manage all the details of your campaign. And also track and measure your marketing impact</p>
 
           </div>
         </div>
@@ -88,40 +199,21 @@
 
     </div>
   </section>
-
-
-
-  <section id="services">
-    <div class="inner-container row">
- 
-
-        <h1 id="servicesTitle" class="text-center">SERVICES </h1>
+  <section id="caseStudies">
+    <div class="inner-container">
+      <div class="row">
+        <h1 class="text-center title">OUR WORK</h1>
         <article class="col-xs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid provident, est obcaecati temporibus earum maiores qui, saepe vero amet voluptate quidem fugit, hic reprehenderit veniam deleniti dolores ea repudiandae non?</article>
-        <ul class="col-xs-6">
-          <li>
-            <img src="assets/images/light-bulb10.png" />
-          </li>
-          <br>
-          <li>
-            <img src="assets/images/light-bulb10.png" />
-          </li>
-          <br>
-          <li>
-            <img src="assets/images/light-bulb10.png" />
-          </li>
-          <br>
-          <li>
-            <img src="assets/images/light-bulb10.png" />
-          </li>
-          <br>
-          <li>
-            <img src="assets/images/light-bulb10.png" />
-          </li>
-          <br>
-        </ul>
-
+        <img class="col-xs-6" src="assets/images/casestudies2.jpg">
+      </div>
+      <div class="row" id="impressions">
+        <h6 class="col-xs-4 text-center">18 MILLION MENTIONS</h6>
+        <h6 class="col-xs-4 text-center">2 BILLION CONNECTIONS</h6>
+        <h6 class="col-xs-4 text-center">99 TRILLION LIKES</h6>
+      </div>
     </div>
   </section>
+
   {{>companyform}}
 </body>
 {{>footer}}
