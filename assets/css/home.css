@@ -20,6 +20,36 @@ video#bgvid {
     background-size: cover;
 }
 
+.container {
+    height:80px;
+}
+
+.inner-container {
+    margin-top: 15em;
+}
+.homeBanner {
+    height:80px;
+    background-color: white;
+    width:100%;
+    vertical-align: top;
+    border-radius: 0;
+}
+
+.homeBanner img {
+    float: left;
+    position: inline-block;
+    display: relative;
+    height:55px;
+    margin:5px;
+}
+.homeBanner h3 {
+    float:right;
+    margin-right:1em;
+}
+.homeBanner a {
+    text-decoration: none;
+}
+
 #homeLogo {
     width: 200px;
     height: 200px;
@@ -29,8 +59,13 @@ video#bgvid {
     background-color: white;
 }
 
-.homeButton,
-.homeButton a {
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.homeButton, .homeButton a {
     border-radius: 25px;
     border: solid 2px white;
     background: rgba(255, 0, 0, 0);
@@ -41,17 +76,14 @@ video#bgvid {
     font-size: 2em;
 }
 
-.homeButton:hover {
-    background: #3cb0fd;
+
+.homeButton a:hover {
+    color: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
-}
-
-a {
     text-decoration: none;
 }
 
