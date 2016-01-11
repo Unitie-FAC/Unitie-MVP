@@ -1,8 +1,6 @@
 body {
-
-    color:white;
+    color: white;
 }
-
 
 video#bgvid {
     position: fixed;
@@ -17,12 +15,11 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(../images/polina.jpg) no-repeat;
+    background: url(../images/firstframe.png) no-repeat;
     background-size: cover;
 }
 
-
-#homeLogo { 
+#homeLogo {
     width: 200px;
     height: 200px;
     text-align: center;
@@ -31,8 +28,8 @@ video#bgvid {
     background-color: white;
 }
 
-
-.homeButton, .homeButton a {
+.homeButton,
+.homeButton a {
     border-radius: 25px;
     border: solid 2px white;
     background: rgba(255, 0, 0, 0);
@@ -40,21 +37,20 @@ video#bgvid {
     padding: 10px;
     text-decoration: none;
     color: white;
-    font-size: 2em ;
+    font-size: 2em;
 }
 
 .homeButton:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
 }
 
-
-a { 
+a {
     text-decoration: none;
 }
 
@@ -63,24 +59,33 @@ a {
 }
 
 @media screen and (max-device-width: 800px) {
-
     body {
-        background-image: url(../images/polina.jpg) ;
+        background-image: url(../images/firstframe.png);
         background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
     }
-  
     #bgvid {
         display: none;
     }
-
-    #homeLogo { 
-    width: 150px;
-    height: 150px;
-    text-align: center;
-    margin: 1em auto;
-    padding: 0;
-    background-color: white;
-    border-radius:100%;
+    #homeLogo {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        margin: 1em auto;
+        padding: 0;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .homeButton,
+    .homeButton a {
+        border-radius: 25px;
+        border: solid 2px white;
+        background: rgba(255, 0, 0, 0);
+        margin: 0.5em 0.5em;
+        padding: 8px;
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
     }
 }
