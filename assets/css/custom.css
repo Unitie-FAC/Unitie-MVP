@@ -100,3 +100,25 @@ footer {
     height:10em;
 
 }
+
+@media screen and (max-device-width: 800px) {
+
+   #contactList a {
+        font-size: 1.2em;
+        line-height: 2em;
+
+    }
+
+
+    #contactLis{
+        width:100%;
+    }
+
+
+    .contactClient {
+      display: block;
+      position: relative;
+      height:4em;
+      text-decoration: none;
+    }
+}
