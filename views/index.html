@@ -1,23 +1,31 @@
 <link rel="stylesheet" href="assets/css/home.css">
-<body >
-    <header>
-     <nav class="homeBanner" >
-          <p id="unitie">UNITIE</p>
-          <a href="#contactus"><p id="contactUs">Contact Us</p></a>
-     </nav>
-    
-    </header>
+
+<body>
+    <nav>
+        <p id="unitie">UNITIE</p>
+    </nav>
+    <div class="dropdown rightMenu">
+        <p class="dropdown-toggle" type="button" data-toggle="dropdown">Contact Us
+            <span class="caret"></span></p>
+        <ul class="dropdown-menu pull-right">
+            <li>
+                <a href="tel:555-6677" class="contactClient"> <i class="glyphicon glyphicon-earphone" aria-hidden="true"></i> 555-6677</a>
+            </li>
+            <li>
+                <a href="mailto:info@unitie.co.uk" class="contactClient"> <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i> info@unitie.co.uk</a>
+            </li>
+        </ul>
+    </div>
     <section>
         <div class="text-center">
             <video autoplay loop poster="assets/images/firstframe.png " id="bgvid">
                 <source src="assets/video/unitievid.mp4" type="video/webm">
             </video>
-            <h1>Connecting Student Societies and Brands</h1> 
-             <div class="buttonWrapper">
+            <h1>Connecting Student Societies and Brands</h1>
+            <div class="buttonWrapper">
                 <a class="homeButton" href="/society">I AM A STUDENT</a>
                 <a class="homeButton" href="/company">I AM A BRAND</a>
             </div>
         </div>
     </section>
 </body>
-

@@ -34,22 +34,24 @@ video#bgvid {
 }
 
 #unitie {
-    float: left;
-    position: inline-block;
-    display: relative;
     font-weight: bolder;
     font-size: 2em;
     color: white;
-    margin:0.5em;
+    float: left;
+    position: top;
+    display: inline-block;
+    margin-left: 4em;
 }
 
-
-#contactUs {
+.rightMenu {
     float: right;
     margin: 1em;
+    margin-right: 5em;
     vertical-align: middle;
     font-weight: normal;
     color: white;
+    display: inline-block;
+    position: top;
 }
 
 .homeBanner a {
@@ -89,7 +91,7 @@ a {
 
 .text-center {
     text-align: center;
-    margin-top: 8em;
+    margin-top: 10em;
 }
 
 @media screen and (max-device-width: 800px) {
@@ -102,15 +104,25 @@ a {
     #bgvid {
         display: none;
     }
-    .homeBanner {
-        height: 60px;
-        background-color: none;
-        width: 100%;
-        vertical-align: top;
-        border-radius: 0;
+    #unitie {
+        font-weight: bolder;
+        font-size: 2em;
+        color: white;
+        float: left;
+        position: top;
+        display: inline-block;
+        margin-left: 1em;
     }
-
-
+    .rightMenu {
+        float: right;
+        margin: 1em;
+        margin-right: 1em;
+        vertical-align: middle;
+        font-weight: normal;
+        color: white;
+        display: inline-block;
+        position: top;
+    }
     .homeButton {
         display: inline-block;
         position: relative;
@@ -137,4 +149,10 @@ a {
         background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
         text-decoration: none;
     }
+    .text-center {
+        text-align: center;
+        margin-top: 8em;
+    }
 }
+/* for iphone 6 in portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
