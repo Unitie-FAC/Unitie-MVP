@@ -13,32 +13,89 @@ a:hover{
   text-decoration: none;
 }
 
-header {
-  text-align: center;
-}
-
 .inner-container { 
-  margin:0 4em;
+  margin:0 2em;
   text-align: auto;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-  background-color: white;
-  color: black;
-}
-.navColor *,.navbar-default, .navbar-brand,  .navbar { 
+/*  Navigation  */
+
+.navbar-custom {
     background-color: white;
     color: black;
-}
-.navColor a { 
-    background-color: white;
-    color: black;
+    border-color: none;
 }
 
-#navTitle {
+.icon-bar {
+  color: grey;
+  background-color: grey;
+}
+
+.homeNav a{
+  color: #7b9fad;
+  font-weight: bold;
+}
+
+.aboutUsNav a{
+  color: #85d077;
+  font-weight: bold;
+}
+.howItWrksNav a {
+  color:#c31c46;
+  font-weight: bold;
+}
+
+.registerNav a {
+  color: yellow;
+  font-weight: bold;
+
+}
+
+.contactNav a {
+  color: #7b9fad;
+  font-weight: bold;
+
+}
+.homeNav:hover{
+  border-bottom: 4px solid #7b9fad;
+  color: #7b9fad;
+  font-weight: bold;
+}
+
+.aboutUsNav:hover {
+  border-bottom: 4px solid #85d077;
+  color: #85d077;
+  font-weight: bold;
+
+}
+.howItWrksNav:hover {
+  border-bottom: 4px solid #c31c46;
+  color:#c31c46;
+  font-weight: bold;
+}
+
+.registerNav:hover {
+  border-bottom: 4px solid yellow;
+  color: yellow
+  font-weight: bold;
+
+}
+
+.contactNav:hover {
+  border-bottom: 4px solid #7b9fad;
+  color: #7b9fad;
+  font-weight: bold;
+
+}
+
+
+
+#navLogo {
     background-color: white;
-    color: black;
- 
+    width: auto;
+    height:50px; 
+    margin:5px;
+    margin-left: 4em;
 }
 
 .title { 
@@ -46,10 +103,7 @@ header {
   margin-bottom: 2em;
 }
 
-/* .inner-container {
-    margin: 15em 3em;
-}
- */
+
 #gallery .thumbnail {
     width: 150px;
     height: 150px;

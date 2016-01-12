@@ -40,12 +40,13 @@ video#bgvid {
     float: left;
     position: top;
     display: inline-block;
+    margin-top: 1em;
     margin-left: 4em;
 }
 
 .rightMenu {
     float: right;
-    margin: 1em;
+    margin: 2em;
     margin-right: 5em;
     vertical-align: middle;
     font-weight: normal;
