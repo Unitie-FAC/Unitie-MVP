@@ -26,26 +26,30 @@ video#bgvid {
 
 .homeBanner {
     height: 70px;
-    background-color: white;
+    background-color: none;
     width: 100%;
     vertical-align: top;
     border-radius: 0;
     display: block;
 }
 
-.homeBanner img {
+#unitie {
     float: left;
     position: inline-block;
     display: relative;
-    height: 55px;
-    margin: 5px;
+    font-weight: bolder;
+    font-size: 2em;
+    color: white;
+    margin:0.5em;
 }
 
-.homeBanner h4 {
+
+#contactUs {
     float: right;
     margin: 1em;
     vertical-align: middle;
-    font-weight: bold;
+    font-weight: normal;
+    color: white;
 }
 
 .homeBanner a {
@@ -100,18 +104,13 @@ a {
     }
     .homeBanner {
         height: 60px;
-        background-color: white;
+        background-color: none;
         width: 100%;
         vertical-align: top;
         border-radius: 0;
     }
-    .homeBanner img {
-        float: left;
-        position: inline-block;
-        display: relative;
-        height: 45px;
-        margin: 5px;
-    }
+
+
     .homeButton {
         display: inline-block;
         position: relative;
@@ -138,9 +137,4 @@ a {
         background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
         text-decoration: none;
     }
-    /*     .center {
-    position: fixed;
-    top: 30%;
-    left: 15%;
-} */
 }
