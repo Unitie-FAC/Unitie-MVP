@@ -1,10 +1,10 @@
-
-html, body {
+html,
+body {
     color: white;
     font-family: 'Open Sans';
-    width:100%;  
+    width: 100%;
     height: 100%;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 video#bgvid {
@@ -24,20 +24,13 @@ video#bgvid {
     background-size: cover;
 }
 
-.container {
-    height: 80px;
-}
-
-.inner-container {
-    margin-top: 15em;
-}
-
 .homeBanner {
-    height: 80px;
+    height: 70px;
     background-color: white;
     width: 100%;
     vertical-align: top;
     border-radius: 0;
+    display: block;
 }
 
 .homeBanner img {
@@ -48,22 +41,15 @@ video#bgvid {
     margin: 5px;
 }
 
-.homeBanner h3 {
+.homeBanner h4 {
     float: right;
-    margin-right: 1em;
+    margin: 1em;
+    vertical-align: middle;
+    font-weight: bold;
 }
 
 .homeBanner a {
     text-decoration: none;
-}
-
-#homeLogo {
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    margin: 1em auto;
-    padding: 0;
-    background-color: white;
 }
 
 a {
@@ -97,6 +83,11 @@ a {
     margin-top: 4em;
 }
 
+.text-center {
+    text-align: center;
+    margin-top: 8em;
+}
+
 @media screen and (max-device-width: 800px) {
     body {
         background-image: url(../images/firstframe.png);
@@ -107,16 +98,21 @@ a {
     #bgvid {
         display: none;
     }
-    #homeLogo {
-        width: 150px;
-        height: 150px;
-        text-align: center;
-        margin: 1em auto;
-        padding: 0;
+    .homeBanner {
+        height: 60px;
         background-color: white;
-        border-radius: 100%;
+        width: 100%;
+        vertical-align: top;
+        border-radius: 0;
     }
-    .homeButton{
+    .homeBanner img {
+        float: left;
+        position: inline-block;
+        display: relative;
+        height: 45px;
+        margin: 5px;
+    }
+    .homeButton {
         display: inline-block;
         position: relative;
     }
@@ -142,4 +138,9 @@ a {
         background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
         text-decoration: none;
     }
+    /*     .center {
+    position: fixed;
+    top: 30%;
+    left: 15%;
+} */
 }
