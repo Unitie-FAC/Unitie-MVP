@@ -132,9 +132,8 @@ footer {
 @media screen and (max-device-width: 800px) {
 
    #contactList a {
-        font-size: 1.2em;
-        line-height: 2em;
-
+        font-size: 2em;
+        color: black;
     }
 
 
