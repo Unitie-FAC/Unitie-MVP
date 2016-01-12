@@ -4,30 +4,30 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+p {
+  text-align: justify;
+}
+#caseStudiesX {
+  margin-top: 2em;
+}
 media screen and (max-width: 299px) {
-    .whyus-icon-size {
-        font-size: 1.2em;
-    }
+  .whyus-icon-size {
+    font-size: 1.2em;
+  }
 }
-
 @media screen and (min-width: 300px) and (max-width: 799px) {
-    .whyus-icon-size {
-        font-size: 2em;
-    }
+  .whyus-icon-size {
+    font-size: 2em;
+  }
 }
-
 @media screen and (min-width: 800px) {
-    .whyus-icon-size {
-        font-size: 4em;
-    }
+  .whyus-icon-size {
+    font-size: 4em;
+  }
 }
-
 .huge-numbers {
-  font-size:20em;
+  font-size: 20em;
 }
-
-
 .img-fillcircle {
   background: url(../images/people.png);
   background-size: cover;
@@ -35,57 +35,49 @@ media screen and (max-width: 299px) {
   background-position: center;
   display: block;
   position: relative;
-  margin:0;
-  padding :0;
-  height:45em;
+  margin: 0;
+  padding: 0;
+  height: 45em;
 }
-
-
 .introText {
-	text-align: center;
-	padding-top: 15em;
-	color: white;
-	margin: 0 4em;
-
+  text-align: center;
+  padding-top: 15em;
+  color: white;
+  margin: 0 4em;
 }
-
 .companyBannerImage {
-	background: url(../images/brandHome.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	display: block;
-	position: relative;
-	margin:0;
-	padding :0;
-	height:45em;
-
+  background: url(../images/brandHome.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 45em;
 }
-
 ul {
   list-style-type: none;
   text-align: center;
   display: inline-block;
 }
-
 #introHeader {
   color: #3cb0fd;
   font-weight: 700;
 }
-
 #impressions {
   margin-top: 2em;
 }
-
 #servicesTitle {
   text-align: center;
-  margin:0 auto;
+  margin: 0 auto;
   position: relative;
   display: block;
   margin-left: -20em;
 }
 
 /*timeline css below*/
+
 .timeline {
   position: relative;
   padding: 0;
