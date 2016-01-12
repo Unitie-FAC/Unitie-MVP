@@ -5,6 +5,14 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
 header {
   text-align: center;
 }
