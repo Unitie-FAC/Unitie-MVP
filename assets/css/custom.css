@@ -20,18 +20,16 @@ a:hover{
 
 /*  Navigation  */
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-  background-color: white;
-}
-.navColor *,.navbar-default, .navbar-brand,  .navbar { 
+.navbar-custom {
     background-color: white;
     color: black;
-}
-.navColor a { 
-    background-color: white;
-    color: black;
+    border-color: none;
 }
 
+.icon-bar {
+  color: grey;
+  background-color: grey;
+}
 
 .homeNav a{
   color: #7b9fad;
@@ -48,7 +46,7 @@ a:hover{
 }
 
 .registerNav a {
-  color: eac429;
+  color: yellow;
   font-weight: bold;
 
 }
@@ -77,8 +75,8 @@ a:hover{
 }
 
 .registerNav:hover {
-  border-bottom: 4px solid #eac429;
-  color: eac429;
+  border-bottom: 4px solid yellow;
+  color: yellow
   font-weight: bold;
 
 }
