@@ -1,6 +1,10 @@
-body {
+
+html, body {
     color: white;
     font-family: 'Open Sans';
+    width:100%;  
+    height: 100%;
+    overflow:hidden;
 }
 
 video#bgvid {
@@ -111,6 +115,10 @@ a {
         padding: 0;
         background-color: white;
         border-radius: 100%;
+    }
+    .homeButton{
+        display: inline-block;
+        position: relative;
     }
     .homeButton,
     .homeButton a {
