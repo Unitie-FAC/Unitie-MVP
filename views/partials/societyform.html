@@ -1,88 +1,96 @@
 <section id="register">
     <div class="inner-container">
-          
         <form role="form" action="/societyredis" method="POST" id="societyForm">
-             <h1 class="text-center ">REGISTER YOUR SCOCIETY</h1>
-             <div class="form-group">
-            <label for="Society Name">Society Name </label>
-            <input type="text" id="societyName" placeholder="Society Name" name="societyName" value="GUFC" class="form-control" required>
+           <h1 class="text-center ">REGISTER YOUR SCOCIETY</h1>
+            <div class="row">
+                <div class="form-group col-xs-4 col-md-4">
+                    <label for="Society Name" class="control-label">Society Name </label>
+                    <input type="text" id="societyName" placeholder="Society Name" name="societyName" value="GUFC" class="form-control" required>
+                </div>
+                <div class="form-group col-xs-4 col-md-4">
+                    <label for="University">University Name</label>
+                    <input type="text" id="university" name="university" placeholder="university auto/comp" value="University of Glasgow" class="form-control" required>
+                    <output id="universityAcList"></output>
+                </div>
+                <div class="form-group col-xs-4 col-md-4">
+                    <label for="Specify other ">Specify Other </label>
+                    <input type="text" id="specifyOther" placeholder="specify other institution" value="Langside college" class="form-control" required>
+                </div>
             </div>
-             <div class="form-group">
-            <label for="University">University Name</label>
-            <input type="text" id="university" name="university" placeholder="university auto/comp" value="University of Glasgow" class="form-control" required>
-            <output id="universityAcList"></output>
+            <div class="row">
+                <div class="form-group col-xs-4 col-md-4">
+                    <label for="Type of society">Type of society </label>
+                    <select name="typeSociety" id="typeSociety" class="form-control" required>
+                        <option value="Academic & Employability" selected="selected">Academic & Employability</option>
+                        <option value="Arts & Culture">Arts & Culture</option>
+                        <option value="Faith & Worldview">Faith & Worldview</option>
+                        <option value="Fitness & Wellbeing">Fitness & Wellbeing</option>
+                        <option value="International">International</option>
+                        <option value="Media">Media</option>
+                        <option value="Music">Music</option>
+                        <option value="Outdoor and Adventure">Outdoor and Adventure</option>
+                        <option value="Political, Campaigning & Causes">Political, Campaigning & Causes</option>
+                        <option value="Recreational">Recreational</option>
+                        <option value="Volunteering">Volunteering</option>
+                        <option value="Committee Resources">Committee Resources</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group col-xs-4 col-md-4">
+                    <label for="Region">Region </label>
+                    <select name="region" id="region" class="form-control" required>
+                        <option value="" disabled selected>Select region</option>
+                        <option value="East" selected="selected">East</option>
+                        <option value="East Midlands">East Midlands</option>
+                        <option value="London">London</option>
+                        <option value="North East">North East</option>
+                        <option value="North West">North West</option>
+                        <option value="Northern Ireland">Northern Ireland</option>
+                        <option value="Scotland">Scotland</option>
+                        <option value="South East">South East</option>
+                        <option value="South West">South West</option>
+                        <option value="Wales">Wales</option>
+                        <option value="West Midlands">West Midlands</option>
+                        <option value="Yorkshire and the Humber">Yorkshire and the Humber</option>
+                    </select>
+                </div>
+                <div class="form-group col-xs-4 col-md-4">
+                    <label for="Member size">Member Size</label>
+                    <select name="memberSize" id="region" class="form-control" required>
+                        <option value="" disabled selected>Select size</option>
+                        <option value="0-50" selected="selected">0-50</option>
+                        <option value="51-100">51-100</option>
+                        <option value="101-150">101-150</option>
+                        <option value="151-200">151-200</option>
+                        <option value="200+">200 +</option>
+                    </select>
+                </div>
             </div>
-             <div class="form-group">
-            <label for="Specify other ">Specify Other </label>
-            <input type="text" id="specifyOther" placeholder="specify other institution" value="Langside college" class="form-control" required>
+            <div class="row">
+                <div class="form-group col-xs-4 col-md-4">
+                    <label for="Email">Email</label>
+                    <input type="email" name="email" value="J@P.com" class="form-control" required>
+                </div>
+                <div class="form-group col-xs-4 col-md-4">
+                    <label for="phone"> Phone </label>
+                    <input type="text" id="phone" placeholder="Phone" name="phone" value="12312312312" class="form-control">
+                </div>
+                <div class="form-group col-xs-4 col-md-4">
+                    <label for="societyLogo">Society Logo</label>
+                    <input type="file" name="societyLogo" placeholder="societyLogo" id="fileinput" class="form-control" accept="image/*">
+                    <!--   <progress min="0" max="100" value="0">0% complete</progress> -->
+                </div>
             </div>
-            <div class="form-group">
-            <label for="Region">Region </label>
-            <select name="region" id="region" class="form-control" required>
-                <option value="" disabled selected>Select region</option>
-                <option value="East" selected="selected">East</option>
-                <option value="East Midlands">East Midlands</option>
-                <option value="London">London</option>
-                <option value="North East">North East</option>
-                <option value="North West">North West</option>
-                <option value="Northern Ireland">Northern Ireland</option>
-                <option value="Scotland">Scotland</option>
-                <option value="South East">South East</option>
-                <option value="South West">South West</option>
-                <option value="Wales">Wales</option>
-                <option value="West Midlands">West Midlands</option>
-                <option value="Yorkshire and the Humber">Yorkshire and the Humber</option>
-            </select>
+            <div class="row">
+                <div class="form-group col-xs-6 col-md-6">
+                    <label for="about us">Tell us a bit about your Society</label>
+                    <textarea id="about" cols="80" rows="5" name="aboutus" class="form-control"></textarea>
+                </div>
+                 <div class="form-group col-xs-6 col-md-6 text-center">
+                    <button id="submit" type="submit" class="btn btn-default">Submit</button>
+                </div>
             </div>
-            <div class="form-group">
-            <label for="Type of society">Type of society </label>
-            <select name="typeSociety" id="typeSociety"  class="form-control" required>
-
-                <option value="Academic & Employability" selected="selected">Academic & Employability</option>
-                <option value="Arts & Culture">Arts & Culture</option>
-                <option value="Faith & Worldview">Faith & Worldview</option>
-                <option value="Fitness & Wellbeing">Fitness & Wellbeing</option>
-                <option value="International">International</option>
-                <option value="Media">Media</option>
-                <option value="Music">Music</option>
-                <option value="Outdoor and Adventure">Outdoor and Adventure</option>
-                <option value="Political, Campaigning & Causes">Political, Campaigning & Causes</option>
-                <option value="Recreational">Recreational</option>
-                <option value="Volunteering">Volunteering</option>
-                <option value="Committee Resources">Committee Resources</option>
-                <option value="Other">Other</option>
-            </select>
-            </div>
-            <div class="form-group">
-            <label for="Member size">Member Size</label>
-            <select name="memberSize" id="region" class="form-control" required>
-                <option value="" disabled selected>Select size</option>
-                <option value="0-50" selected="selected">0-50</option>
-                <option value="51-100">51-100</option>
-                <option value="101-150">101-150</option>
-                <option value="151-200">151-200</option>
-                <option value="200+">200 +</option>
-            </select>
-            </div>
-             <div class="form-group">
-            <label for="Email">Email</label>
-            <input type="email" name="email" value="J@P.com" class="form-control" required>
-            </div>
-             <div class="form-group">
-            <label for="phone"> Phone </label>
-            <input type="text" id="phone" placeholder="Phone" name="phone" value="12312312312" class="form-control">
-            </div>
-            <div class="form-group">
-            <label for="about us">Tell us a bit about your Society</label>
-            <textarea id="about" cols="86" rows="10" name="aboutus"  class="form-control"></textarea>
-            </div>
-             <div class="form-group">
-            <label for="societyLogo">Society Logo</label>
-            <input type="file" name="societyLogo" placeholder="societyLogo" id="fileinput" class="form-control" accept="image/*">
-            <progress min="0" max="100" value="0">0% complete</progress>
-            </div>
-            <button id="submit" type="submit" class="btn btn-default">Submit</button><output id="messageOut"></output>
+            <output id="messageOut"></output>
         </form>
-      </div>
-
+    </div>
 </section>

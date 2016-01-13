@@ -104,19 +104,22 @@ a:hover {
 
 #register h1 {
     color: white;
+    margin-bottom: 1em;
 }
 #register {
-    background-color:#7b9fad;
+    background-color:#183467;
     width:100%;
 
 }
 #register form {
-    background-color:#ceea82;
-/*     background-image: linear-gradient(green, yellow); */
+    background-color:#183467;
     padding: 2em;
     margin: 1em;
     border-radius: 15px;
-    color: black;
+    color: white;
+}
+#register input, #register select {
+    background-color: #95b2bd;
 }
 
 .checkbox-inline {
@@ -126,7 +129,7 @@ a:hover {
 #register button {
     color: #7b9fad;
     font-size: 2em;
-    padding: 0, 25em;
+    margin-top: 2em;
 }
 
 .inner-container {
