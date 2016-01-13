@@ -1,22 +1,24 @@
-html, body {
+html,
+body {
     margin: 0;
-    padding:0;
+    padding: 0;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-a:hover{
-  text-decoration: none;
+a:hover {
+    text-decoration: none;
 }
 
-.inner-container { 
-  margin:0 2em;
-  text-align: auto;
+.inner-container {
+    margin: 0 2em;
+    text-align: auto;
 }
+
 
 /*  Navigation  */
 
@@ -26,27 +28,25 @@ a:hover{
 }
 
 .navbar-custom button {
-  border-color:black;
+    border-color: black;
 }
 
 .icon-bar {
-  color: grey;
-  background-color: grey;
+    color: grey;
+    background-color: grey;
 }
-
-
 
 #navLogo {
     background-color: white;
     width: auto;
-    height:50px; 
-    margin:5px;
+    height: 50px;
+    margin: 5px;
     margin-left: 4em;
 }
 
-.title { 
-  margin-top: 2em;
-  margin-bottom: 2em;
+.title {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .introText {
@@ -65,10 +65,7 @@ a:hover{
 .introText h2 {
     font-weight: bolder;
     text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
-
 }
-
-
 
 #gallery .thumbnail {
     width: 150px;
@@ -83,69 +80,96 @@ a:hover{
 }
 
 
-
 /*admin login basic authentication styling*/
 
 .hidden {
-  display: none;
+    display: none;
 }
 
 #login {
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 10;
-  background-color: white;
-  padding-top: 30vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    padding-top: 30vh;
 }
 
 #loginform {
-  margin: 0 auto;
-  max-width: 50%;
+    margin: 0 auto;
+    max-width: 50%;
 }
 
 #loginform input {
-  width: auto;
+    width: auto;
 }
 
-#contactList{
-  margin:2em;
-  list-style: none;
+#contactList a {
+    font-size: 2em;
+    color: black;
 }
-#contactList li a {
-  color:black;
-  font-size: 3em;
-  text-decoration: none;
 
+#contactLis {
+    width: 100%;
+}
 
+.contactClient {
+    display: block;
+    position: relative;
+    height: 4em;
+    text-decoration: none;
+}
 
+.social {
+    text-align: center;
+    display: block;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.social li {
+    display: relative;
+    position: inline-block;
+    font-size: 2em;
+}
+
+.social li a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    padding: 0.5em;
+    display: relative;
+    font-size: 1.5em;
+    position: block;
+}
+
+.social,
+.icons > li:hover {
+    cursor: pointer;
 }
 
 footer {
     margin: 4em;
-    height:10em;
-
+    height: 10em;
 }
 
 @media screen and (max-device-width: 800px) {
-
-   #contactList a {
+    #contactList a {
         font-size: 2em;
         color: black;
     }
-
-
-    #contactLis{
-        width:100%;
+    #contactLis {
+        width: 100%;
     }
-
-
     .contactClient {
-      display: block;
-      position: relative;
-      height:4em;
-      text-decoration: none;
+        display: block;
+        position: relative;
+        height: 4em;
+        text-decoration: none;
     }
 }
