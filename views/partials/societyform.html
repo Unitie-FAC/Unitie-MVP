@@ -1,7 +1,9 @@
 <section id="register">
     <div class="inner-container">
-           <h1 class="text-center title">REGISTER YOUR SCOCIETY</h1>
+
         <form role="form" action="/societyredis" method="POST" id="societyForm">
+
+             <h1 class="text-center ">REGISTER YOUR SOCIETY</h1>
 
              <div class="form-group">
             <label for="Society Name">Society Name </label>
@@ -74,14 +76,14 @@
             </div>
             <div class="form-group">
             <label for="about us">Tell us a bit about your Society</label>
-            <textarea id="about" cols="86" rows="20" name="aboutus"  class="form-control"></textarea>
+            <textarea id="about" cols="86" rows="10" name="aboutus"  class="form-control"></textarea>
             </div>
              <div class="form-group">
             <label for="societyLogo">Society Logo</label>
             <input type="file" name="societyLogo" placeholder="societyLogo" id="fileinput" class="form-control" accept="image/*">
             <progress min="0" max="100" value="0">0% complete</progress>
             </div>
-            <button type="submit">Submit</button>
+            <button type="submit" class="btn btn-default">Submit</button>
         </form>
       </div>
       <script type="text/javascript" src="/autocomplete.js"></script>

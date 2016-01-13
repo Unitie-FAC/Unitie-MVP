@@ -1,108 +1,72 @@
-html, body {
+html,
+body {
     margin: 0;
-    padding:0;
+    padding: 0;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-a:hover{
-  text-decoration: none;
+a:hover {
+    text-decoration: none;
 }
 
-.inner-container { 
-  margin:0 2em;
-  text-align: auto;
+.inner-container {
+    margin: 0 2em;
+    text-align: auto;
+    padding-top: 1em;
 }
+
 
 /*  Navigation  */
 
 .navbar-custom {
     background-color: white;
     color: black;
-    border-color: none;
+}
+
+.navbar-custom button {
+    border-color: black;
 }
 
 .icon-bar {
-  color: grey;
-  background-color: grey;
+    color: grey;
+    background-color: grey;
 }
-
-.homeNav a{
-  color: #7b9fad;
-  font-weight: bold;
-}
-
-.aboutUsNav a{
-  color: #85d077;
-  font-weight: bold;
-}
-.howItWrksNav a {
-  color:#c31c46;
-  font-weight: bold;
-}
-
-.registerNav a {
-  color: yellow;
-  font-weight: bold;
-
-}
-
-.contactNav a {
-  color: #7b9fad;
-  font-weight: bold;
-
-}
-.homeNav:hover{
-  border-bottom: 4px solid #7b9fad;
-  color: #7b9fad;
-  font-weight: bold;
-}
-
-.aboutUsNav:hover {
-  border-bottom: 4px solid #85d077;
-  color: #85d077;
-  font-weight: bold;
-
-}
-.howItWrksNav:hover {
-  border-bottom: 4px solid #c31c46;
-  color:#c31c46;
-  font-weight: bold;
-}
-
-.registerNav:hover {
-  border-bottom: 4px solid yellow;
-  color: yellow
-  font-weight: bold;
-
-}
-
-.contactNav:hover {
-  border-bottom: 4px solid #7b9fad;
-  color: #7b9fad;
-  font-weight: bold;
-
-}
-
-
 
 #navLogo {
     background-color: white;
     width: auto;
-    height:50px; 
-    margin:5px;
+    height: 50px;
+    margin: 5px;
     margin-left: 4em;
 }
 
-.title { 
-  margin-top: 2em;
-  margin-bottom: 2em;
+.title {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
+.introText {
+    text-align: center;
+    padding-top: 15em;
+    color: white;
+    margin: 0 4em;
+}
+
+.introText h1 {
+    color: #7b9fad;
+    font-weight: bolder;
+    text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+}
+
+.introText h2 {
+    font-weight: bolder;
+    text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+}
 
 #gallery .thumbnail {
     width: 150px;
@@ -121,66 +85,129 @@ a:hover{
 /*admin login basic authentication styling*/
 
 .hidden {
-  display: none;
+    display: none;
 }
 
 #login {
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 10;
-  background-color: white;
-  padding-top: 30vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    padding-top: 30vh;
 }
 
+
+/* registration forms */
+
+#register h1 {
+    color: white;
+}
+#register {
+    background-color:#7b9fad;
+    width:100%;
+
+}
+#register form {
+    background-color:#ceea82;
+/*     background-image: linear-gradient(green, yellow); */
+    padding: 2em;
+    margin: 1em;
+    border-radius: 15px;
+    color: black;
+}
+
+.checkbox-inline {
+    line-height: 2em;
+}
+
+#register button {
+    color: #7b9fad;
+    font-size: 2em;
+    padding: 0, 25em;
+}
+
+.inner-container {
+    padding-bottom: 2em;
+}
+
+
+
 #loginform {
-  margin: 0 auto;
-  max-width: 50%;
+    margin: 0 auto;
+    max-width: 50%;
 }
 
 #loginform input {
-  width: auto;
+    width: auto;
 }
 
-#contactList{
-  margin:2em;
-  list-style: none;
+#contactList a {
+    font-size: 2em;
+    color: black;
 }
-#contactList li a {
-  color:black;
-  font-size: 3em;
-  text-decoration: none;
 
+#contactList {
+    width: 100%;
+}
 
+.contactClient {
+    display: block;
+    position: relative;
+    height: 4em;
+    text-decoration: none;
+}
 
+.social {
+    text-align: center;
+    display: block;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.social li {
+    display: relative;
+    position: inline-block;
+    font-size: 2em;
+}
+
+.social li a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    padding: 0.5em;
+    display: relative;
+    font-size: 1.5em;
+    position: block;
+}
+
+.social,
+.icons > li:hover {
+    cursor: pointer;
 }
 
 footer {
     margin: 4em;
-    height:10em;
-
+    height: 10em;
 }
 
 @media screen and (max-device-width: 800px) {
-
-   #contactList a {
-        font-size: 1.2em;
-        line-height: 2em;
-
+    #contactList a {
+        font-size: 2em;
+        color: black;
     }
-
-
-    #contactLis{
-        width:100%;
+    #contactLis {
+        width: 100%;
     }
-
-
     .contactClient {
-      display: block;
-      position: relative;
-      height:4em;
-      text-decoration: none;
+        display: block;
+        position: relative;
+        height: 4em;
+        text-decoration: none;
     }
 }
