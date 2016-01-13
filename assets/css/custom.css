@@ -23,69 +23,15 @@ a:hover{
 .navbar-custom {
     background-color: white;
     color: black;
-    border-color: none;
+}
+
+.navbar-custom button {
+  border-color:black;
 }
 
 .icon-bar {
   color: grey;
   background-color: grey;
-}
-
-.homeNav a{
-  color: #7b9fad;
-  font-weight: bold;
-}
-
-.aboutUsNav a{
-  color: #85d077;
-  font-weight: bold;
-}
-.howItWrksNav a {
-  color:#c31c46;
-  font-weight: bold;
-}
-
-.registerNav a {
-  color: yellow;
-  font-weight: bold;
-
-}
-
-.contactNav a {
-  color: #7b9fad;
-  font-weight: bold;
-
-}
-.homeNav:hover{
-  border-bottom: 4px solid #7b9fad;
-  color: #7b9fad;
-  font-weight: bold;
-}
-
-.aboutUsNav:hover {
-  border-bottom: 4px solid #85d077;
-  color: #85d077;
-  font-weight: bold;
-
-}
-.howItWrksNav:hover {
-  border-bottom: 4px solid #c31c46;
-  color:#c31c46;
-  font-weight: bold;
-}
-
-.registerNav:hover {
-  border-bottom: 4px solid yellow;
-  color: yellow
-  font-weight: bold;
-
-}
-
-.contactNav:hover {
-  border-bottom: 4px solid #7b9fad;
-  color: #7b9fad;
-  font-weight: bold;
-
 }
 
 
@@ -102,6 +48,26 @@ a:hover{
   margin-top: 2em;
   margin-bottom: 2em;
 }
+
+.introText {
+    text-align: center;
+    padding-top: 15em;
+    color: white;
+    margin: 0 4em;
+}
+
+.introText h1 {
+    color: #7b9fad;
+    font-weight: bolder;
+    text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+}
+
+.introText h2 {
+    font-weight: bolder;
+    text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+
+}
+
 
 
 #gallery .thumbnail {
@@ -166,9 +132,8 @@ footer {
 @media screen and (max-device-width: 800px) {
 
    #contactList a {
-        font-size: 1.2em;
-        line-height: 2em;
-
+        font-size: 2em;
+        color: black;
     }
 
 
