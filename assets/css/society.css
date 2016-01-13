@@ -78,30 +78,6 @@ img {
 }
 
 
-
-#register h1 {
-	color: white;
-}
-#register {
-    background-color:#7b9fad;
- 	width:100%;
-
-}
-#register form {
-    background-color:#ceea82;
-/*     background-image: linear-gradient(green, yellow); */
-    padding: 2em;
-    margin: 1em;
-    border-radius: 15px;
-    color: black;
-}
-
-#register button {
-    color: #7b9fad;
-    font-size: 2em;
-    padding: 0, 25em;
-}
-
 .inner-container {
 	padding-bottom: 2em;
 }

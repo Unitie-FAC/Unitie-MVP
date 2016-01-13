@@ -102,31 +102,41 @@ a:hover {
 
 /* registration forms */
 
-#register h1 {
+#register h1, #register p #register h2 {
     color: white;
+    margin-bottom: 1em;
 }
+
+
 #register {
-    background-color:#7b9fad;
+    background-color:#183467;
     width:100%;
 
 }
 #register form {
-    background-color:#ceea82;
-/*     background-image: linear-gradient(green, yellow); */
-    padding: 2em;
+    background-color:#183467;
+    padding: 1em;
     margin: 1em;
     border-radius: 15px;
-    color: black;
+    color: white;
+}
+#register input, #register select, #register textarea, .checkbox {
+    background-color: #95b2bd;
 }
 
-.checkbox-inline {
-    line-height: 2em;
+.checkbox-inline+.checkbox-inline {
+    margin:0;
+}
+
+.label {
+    font-size: 100%;
+    margin:1em;
 }
 
 #register button {
     color: #7b9fad;
     font-size: 2em;
-    padding: 0, 25em;
+    margin-top: 2em;
 }
 
 .inner-container {
