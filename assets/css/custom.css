@@ -17,6 +17,7 @@ a:hover {
 .inner-container {
     margin: 0 2em;
     text-align: auto;
+    padding-top: 1em;
 }
 
 
@@ -80,6 +81,7 @@ a:hover {
 }
 
 
+
 /*admin login basic authentication styling*/
 
 .hidden {
@@ -97,6 +99,42 @@ a:hover {
     padding-top: 30vh;
 }
 
+
+/* registration forms */
+
+#register h1 {
+    color: white;
+}
+#register {
+    background-color:#7b9fad;
+    width:100%;
+
+}
+#register form {
+    background-color:#ceea82;
+/*     background-image: linear-gradient(green, yellow); */
+    padding: 2em;
+    margin: 1em;
+    border-radius: 15px;
+    color: black;
+}
+
+.checkbox-inline {
+    line-height: 2em;
+}
+
+#register button {
+    color: #7b9fad;
+    font-size: 2em;
+    padding: 0, 25em;
+}
+
+.inner-container {
+    padding-bottom: 2em;
+}
+
+
+
 #loginform {
     margin: 0 auto;
     max-width: 50%;
@@ -111,7 +149,7 @@ a:hover {
     color: black;
 }
 
-#contactLis {
+#contactList {
     width: 100%;
 }
 
