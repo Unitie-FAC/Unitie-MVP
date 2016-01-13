@@ -102,10 +102,12 @@ a:hover {
 
 /* registration forms */
 
-#register h1 {
+#register h1, #register h4 {
     color: white;
     margin-bottom: 1em;
 }
+
+
 #register {
     background-color:#183467;
     width:100%;
@@ -113,12 +115,12 @@ a:hover {
 }
 #register form {
     background-color:#183467;
-    padding: 2em;
+    padding: 1em;
     margin: 1em;
     border-radius: 15px;
     color: white;
 }
-#register input, #register select {
+#register input, #register select, #register textarea, .checkbox {
     background-color: #95b2bd;
 }
 

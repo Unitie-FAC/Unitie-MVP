@@ -3,22 +3,22 @@
         <form role="form" action="/societyredis" method="POST" id="societyForm">
            <h1 class="text-center ">REGISTER YOUR SCOCIETY</h1>
             <div class="row">
-                <div class="form-group col-xs-4 col-md-4">
+                <div class="form-group col-xs-6 col-md-4">
                     <label for="Society Name" class="control-label">Society Name </label>
                     <input type="text" id="societyName" placeholder="Society Name" name="societyName" value="GUFC" class="form-control" required>
                 </div>
-                <div class="form-group col-xs-4 col-md-4">
+                <div class="form-group col-xs-6 col-md-4">
                     <label for="University">University Name</label>
                     <input type="text" id="university" name="university" placeholder="university auto/comp" value="University of Glasgow" class="form-control" required>
                     <output id="universityAcList"></output>
                 </div>
-                <div class="form-group col-xs-4 col-md-4">
+                <div class="form-group col-xs-6 col-md-4">
                     <label for="Specify other ">Specify Other </label>
                     <input type="text" id="specifyOther" placeholder="specify other institution" value="Langside college" class="form-control" required>
                 </div>
             </div>
             <div class="row">
-                <div class="form-group col-xs-4 col-md-4">
+                <div class="form-group col-xs-6 col-md-4">
                     <label for="Type of society">Type of society </label>
                     <select name="typeSociety" id="typeSociety" class="form-control" required>
                         <option value="Academic & Employability" selected="selected">Academic & Employability</option>
@@ -36,7 +36,7 @@
                         <option value="Other">Other</option>
                     </select>
                 </div>
-                <div class="form-group col-xs-4 col-md-4">
+                <div class="form-group col-xs-6 col-md-4">
                     <label for="Region">Region </label>
                     <select name="region" id="region" class="form-control" required>
                         <option value="" disabled selected>Select region</option>
@@ -54,7 +54,7 @@
                         <option value="Yorkshire and the Humber">Yorkshire and the Humber</option>
                     </select>
                 </div>
-                <div class="form-group col-xs-4 col-md-4">
+                <div class="form-group col-xs-6 col-md-4">
                     <label for="Member size">Member Size</label>
                     <select name="memberSize" id="region" class="form-control" required>
                         <option value="" disabled selected>Select size</option>
@@ -65,23 +65,23 @@
                         <option value="200+">200 +</option>
                     </select>
                 </div>
-            </div>
-            <div class="row">
-                <div class="form-group col-xs-4 col-md-4">
+           
+           
+                <div class="form-group col-xs-6 col-md-4">
                     <label for="Email">Email</label>
                     <input type="email" name="email" value="J@P.com" class="form-control" required>
                 </div>
-                <div class="form-group col-xs-4 col-md-4">
+                <div class="form-group col-xs-6 col-md-4">
                     <label for="phone"> Phone </label>
                     <input type="text" id="phone" placeholder="Phone" name="phone" value="12312312312" class="form-control">
                 </div>
-                <div class="form-group col-xs-4 col-md-4">
+                <div class="form-group col-xs-6 col-md-4">
                     <label for="societyLogo">Society Logo</label>
                     <input type="file" name="societyLogo" placeholder="societyLogo" id="fileinput" class="form-control" accept="image/*">
                     <!--   <progress min="0" max="100" value="0">0% complete</progress> -->
                 </div>
-            </div>
-            <div class="row">
+       
+          
                 <div class="form-group col-xs-6 col-md-6">
                     <label for="about us">Tell us a bit about your Society</label>
                     <textarea id="about" cols="80" rows="5" name="aboutus" class="form-control"></textarea>
