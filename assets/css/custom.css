@@ -102,7 +102,7 @@ a:hover {
 
 /* registration forms */
 
-#register h1, #register h4 {
+#register h1, #register p #register h2 {
     color: white;
     margin-bottom: 1em;
 }
@@ -124,8 +124,13 @@ a:hover {
     background-color: #95b2bd;
 }
 
-.checkbox-inline {
-    line-height: 2em;
+.checkbox-inline+.checkbox-inline {
+    margin:0;
+}
+
+.label {
+    font-size: 100%;
+    margin:1em;
 }
 
 #register button {
