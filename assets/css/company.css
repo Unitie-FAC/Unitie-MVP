@@ -10,7 +10,7 @@ p {
 }
 
 /*navigation*/
- 
+
 .homeNav a{
   color: #7b9fad;
   font-weight: bold;
@@ -132,7 +132,6 @@ p {
 
 ul {
     list-style-type: none;
-    text-align: center;
     display: inline-block;
 }
 
