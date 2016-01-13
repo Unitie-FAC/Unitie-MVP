@@ -10,6 +10,29 @@ p {
 }
 
 /*navigation*/
+ 
+.homeNav a{
+  color: #7b9fad;
+  font-weight: bold;
+}
+
+.homeNav:hover{
+  border-bottom: 4px solid #7b9fad;
+  color: #7b9fad;
+  font-weight: bold;
+}
+
+.aboutUsNav a{
+  color: #85d077;
+  font-weight: bold;
+}
+
+.aboutUsNav:hover {
+  border-bottom: 4px solid #85d077;
+  color: #85d077;
+  font-weight: bold;
+
+}
 
 .whyUsNav a {
   color:#c31c46;
@@ -37,7 +60,7 @@ p {
 }
 
 .ourWrkNav:hover {
-  border-bottom: 4px solid #c31c46;
+  border-bottom: 4px solid #7b9fad;
   color: #7b9fad;
   font-weight: bold;
 }
@@ -48,11 +71,10 @@ p {
 
 }
 
-.register:hover {
+.registerNav:hover {
   border-bottom: 4px solid #85d077;
   color: #85d077;
   font-weight: bold;
-
 }
 
 .contactNav a {
