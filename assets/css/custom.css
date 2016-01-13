@@ -5,7 +5,9 @@ body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
 }
-
+#mainHeader{
+    font-size: 3.2em;
+}
 a {
     text-decoration: none;
 }
