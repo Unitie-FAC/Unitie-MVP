@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 #mainHeader{
     font-size: 3.2em;
@@ -62,12 +62,11 @@ a:hover {
 .introText h1 {
     color: #85ABCF;
     font-weight: bolder;
-    text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+
 }
 
 .introText h2 {
     font-weight: bolder;
-    text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
 }
 
 #gallery .thumbnail {
