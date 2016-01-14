@@ -57,13 +57,10 @@
 
 </form>
 
-
-
-
-
 <table>
   <tr>
     <th>ID</th>
+    <th>Society Number</th>
     <th>Date</th>
     <th>Society Name</th>
     <th>University</th>
@@ -72,13 +69,13 @@
     <th>Member Size</th>
     <th>Email</th>
     <th>Phone</th>
-    <th>About Us</th>
     <th>Society Logo</th>
     <th>Delete</th>
   </tr>
   {{#each object}}
   <tr>
     <td>{{this.id}}</td>
+    <td>{{this.societyid}}
     <td>{{this.date}}</td>
     <td>{{this.societyName}}</td>
     <td>{{this.university}}</td>
@@ -87,9 +84,8 @@
     <td>{{this.memberSize}}</td>
     <td>{{this.email}}</td>
     <td>{{this.phone}}</td>
-    <td>{{this.aboutus}}</td>
     <td>{{this.societyLogo}}</td>
-    <td><button type="button" name="button" id="deleteSociety"><a href="/delete/{{this.id}}" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
+    <td><button type="button" name="button" id="deleteSociety"><a href="/deletesociety/{{this.id}}" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
 </button></td>
   </tr>
   {{/each}}
