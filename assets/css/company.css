@@ -7,7 +7,9 @@ img {
 p {
   text-align: justify;
 }
-
+#servicesFillText {
+  font-size: 4em;
+}
 /*navigation*/
 
 .homeNav a {
