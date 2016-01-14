@@ -1,7 +1,7 @@
 <section id="register">
     <div class="inner-container">
         <form role="form" action="/societyredis" method="POST" id="societyForm">
-           <h1 class="text-center ">REGISTER YOUR SCOCIETY</h1>
+            <h1 class="text-center ">REGISTER YOUR SCOCIETY</h1>
             <div class="row">
                 <div class="form-group col-xs-6 col-md-4">
                     <label for="Society Name" class="control-label">Society Name </label>
@@ -16,11 +16,9 @@
                     <label for="Specify other ">Specify Other </label>
                     <input type="text" id="specifyOther" placeholder="specify other institution" value="Langside college" class="form-control" required>
                 </div>
-
             </div>
-            <div class="row">
-                <div class="form-group col-xs-6 col-md-4">
-                    <label for="Type of society">Type of society </label>
+                  <div class="form-group col-xs-6 col-md-4">
+                    <label for="Type of society">Type of society</label>
                     <select name="typeSociety" id="typeSociety" class="form-control" required>
                         <option value="Academic & Employability" selected="selected">Academic & Employability</option>
                         <option value="Arts & Culture">Arts & Culture</option>
@@ -55,6 +53,7 @@
                         <option value="Yorkshire and the Humber">Yorkshire and the Humber</option>
                     </select>
                 </div>
+              
                 <div class="form-group col-xs-6 col-md-4">
                     <label for="Member size">Member Size</label>
                     <select name="memberSize" id="region" class="form-control" required>
@@ -66,8 +65,6 @@
                         <option value="200+">200 +</option>
                     </select>
                 </div>
-           
-           
                 <div class="form-group col-xs-6 col-md-4">
                     <label for="Email">Email</label>
                     <input type="email" name="email" value="J@P.com" class="form-control" required>
@@ -79,19 +76,8 @@
                 <div class="form-group col-xs-6 col-md-4">
                     <label for="societyLogo">Society Logo</label>
                     <input type="file" name="societyLogo" placeholder="societyLogo" id="fileinput" class="form-control" accept="image/*">
-                    <!--   <progress min="0" max="100" value="0">0% complete</progress> -->
                 </div>
-       
-          
-                <div class="form-group col-xs-6 col-md-6">
-                    <label for="about us">Tell us a bit about your Society</label>
-                    <textarea id="about" cols="80" rows="5" name="aboutus" class="form-control"></textarea>
-                </div>
-                 <div class="form-group col-xs-6 col-md-6 text-center">
-                    <button id="submit" type="submit" class="btn btn-default">Submit</button>
-                </div>
-            </div>
-            <output id="messageOut"></output>
-        </form>
-    </div>
+                <output id="messageOut"></output>
+            </form>
+        </div>
 </section>
