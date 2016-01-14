@@ -135,8 +135,12 @@ ul {
     display: inline-block;
 }
 
+#services {
+  background-color: #85ABCF;
+}
+
 #introHeader {
-    color: #3cb0fd;
+    color: #85ABCF;
     font-weight: 700;
 }
 

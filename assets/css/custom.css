@@ -60,7 +60,7 @@ a:hover {
 }
 
 .introText h1 {
-    color: #7b9fad;
+    color: #85ABCF;
     font-weight: bolder;
     text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
 }
@@ -111,19 +111,19 @@ a:hover {
 
 
 #register {
-    background-color:#87AECF;
+    background-color:#85ABCF;
     width:100%;
 
 }
 #register form {
-    background-color:#87AECF;
+    background-color:#85ABCF;
     padding: 1em;
     margin: 1em;
     border-radius: 15px;
     color: white;
 }
 #register input, #register select, #register textarea, .checkbox {
-    background-color: #95b2bd;
+    background-color: #c8d9e9;
 }
 
 .checkbox-inline+.checkbox-inline {
@@ -136,7 +136,7 @@ a:hover {
 }
 
 #register button {
-    color: #7b9fad;
+    color: #85ABCF;
     font-size: 2em;
     margin-top: 2em;
 }
