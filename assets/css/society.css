@@ -6,7 +6,7 @@ img {
 }
 
 /* navigation */
- 
+
  .homeNav a{
   color: #7b9fad;
   font-weight: bold;
@@ -66,7 +66,7 @@ img {
 
 
 .societyBannerImage {
-    background: url(../images/studentsInLectureTheatreFaded.jpg);
+    background: url(../images/newstudentsInLectureTheatreFaded.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -83,7 +83,7 @@ img {
 }
 
 @media screen and (max-device-width: 800px) {
-    .contactClient { text-decoration: none; 
+    .contactClient { text-decoration: none;
                   }
-    
+
 }

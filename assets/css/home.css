@@ -1,10 +1,16 @@
 html,
 body {
     color: white;
-    font-family: 'Open Sans';
     width: 100%;
     height: 100%;
     overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+}
+#mainHeader {
+    font-size: 3.2em;
+}
+#mainSubHead {
+    font-size: 1.8em;
 }
 
 video#bgvid {
@@ -67,13 +73,15 @@ a {
 .homeButton,
 .homeButton a {
     border-radius: 25px;
-    border: solid 2px white;
+    border: solid 1px white;
     background: rgba(255, 0, 0, 0);
-    margin: 1em 0.5em;
-    padding: 10px;
     text-decoration: none;
     color: white;
-    font-size: 2em;
+    font-family: TheSans;
+    padding: 9px 20px;
+    line-height: 14px;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .homeButton a:hover {

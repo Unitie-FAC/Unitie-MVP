@@ -35,13 +35,13 @@ p {
 }
 
 .whyUsNav a {
-  color:#c31c46;
+
   font-weight: bold;
 }
 
 .whyUsNav:hover {
-  border-bottom: 4px solid #c31c46;
-  color:#c31c46;
+  border-bottom: 4px solid ;
+
   font-weight: bold;
 }
 
@@ -78,13 +78,11 @@ p {
 }
 
 .contactNav a {
-  color:#c31c46;
   font-weight: bold;
 }
 
 .contactNav:hover {
-  border-bottom: 4px solid #c31c46;
-  color:#c31c46;
+  border-bottom: 4px solid;
   font-weight: bold;
 }
 
@@ -119,7 +117,7 @@ p {
 
 
 .companyBannerImage {
-    background: url(../images/brandIntroFaded.jpg);
+    background: url(../images/newbrandIntroFaded.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
