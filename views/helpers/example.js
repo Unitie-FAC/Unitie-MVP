@@ -1,0 +1,1 @@
+console.log('Successfull addition to database');
