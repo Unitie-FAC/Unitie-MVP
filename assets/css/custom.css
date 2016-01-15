@@ -82,6 +82,11 @@ a:hover {
 }
 
 
+.howItWorksSubHead{
+  white-space: nowrap;
+  text-align: justify;
+  font-size: 1.25em;
+}
 
 /*admin login basic authentication styling*/
 

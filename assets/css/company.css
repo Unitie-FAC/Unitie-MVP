@@ -144,11 +144,7 @@ h1.text-center.howItWorksHead {
     margin: 0;
     padding: 1em;
 }
-.howItWorksSubHead{
-  white-space: nowrap;
-  text-align: justify;
-  font-size: 1.25em;
-}
+
 .inner-case-study {
   padding: 0;
 }
