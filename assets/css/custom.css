@@ -125,6 +125,12 @@ a:hover {
     background-color: #c8d9e9;
 }
 
+.form-group.required .control-label:after {
+    content: "*";
+    color: red;
+}
+
+
 .checkbox-inline+.checkbox-inline {
     margin:0;
 }
