@@ -180,7 +180,21 @@ a:hover {
     padding: 0;
     overflow: hidden;
 }
+#socialNav {
+    display: table;
+    height: 87px;
+    width: 100%;
+}
 
+#socialNav li{
+    display: table-cell;
+ height: 87px;
+ width: 16.666666667%;  /* (100 / numItems)% */
+ line-height: 87px;
+ text-align: center;
+ border-right: 1px solid #fff;
+ white-space: nowrap;
+}
 .social li {
     display: relative;
     position: inline-block;
@@ -220,5 +234,9 @@ footer {
         position: relative;
         height: 4em;
         text-decoration: none;
+    }
+    #socialNav li {
+        display: block;
+        width: 100%;
     }
 }
