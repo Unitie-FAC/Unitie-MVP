@@ -3,23 +3,23 @@
         <form role="form" action="/societyredis" method="POST" id="societyForm">
             <h1 class="text-center ">REGISTER YOUR SOCIETY</h1>
             <div class="row">
-                <div class="form-group col-xs-6 col-md-4">
-                    <label for="Society Name">Society Name </label>
+                <div class="required form-group col-xs-6 col-md-4">
+                    <label class="control-label" for="Society Name">Society Name </label>
                     <input type="text" id="societyName" placeholder="Society Name" name="societyName" value="GUFC" class="form-control" required>
                 </div>
-                <div class="form-group col-xs-6 col-md-4">
-                    <label for="University">University Name</label>
+                <div class="required form-group col-xs-6 col-md-4">
+                    <label class="control-label" for="University">University Name</label>
                     <input type="text" id="university" name="university" placeholder="university auto/comp" value="University of Glasgow" class="form-control" required>
                     <output id="universityAcList"></output>
                 </div>
-                <div class="form-group col-xs-6 col-md-4">
-                    <label for="Specify other ">Specify Other </label>
+                <div class="required form-group col-xs-6 col-md-4">
+                    <label class="control-label" for="Specify other ">Specify Other </label>
                     <input type="text" id="specifyOther" placeholder="specify other institution" value="Langside college" class="form-control" required>
                 </div>
             </div>
             <div class="row">
-                <div class="form-group col-xs-6 col-md-4">
-                    <label for="Region">Region </label>
+                <div class="required form-group col-xs-6 col-md-4">
+                    <label class="control-label" for="Region">Region </label>
                     <select name="region" id="region" class="form-control" required>
                         <option value="" disabled selected>Select region</option>
                         <option value="East" selected="selected">East</option>
@@ -36,8 +36,8 @@
                         <option value="Yorkshire and the Humber">Yorkshire and the Humber</option>
                     </select>
                 </div>
-                <div class="form-group col-xs-6 col-md-4">
-                    <label for="Type of society">Type of society</label>
+                <div class="required form-group col-xs-6 col-md-4">
+                    <label class="control-label" for="Type of society">Type of society</label>
                     <select name="typeSociety" id="typeSociety" class="form-control" required>
                         <option value="Academic & Employability" selected="selected">Academic & Employability</option>
                         <option value="Arts & Culture">Arts & Culture</option>
@@ -54,8 +54,8 @@
                         <option value="Other">Other</option>
                     </select>
                 </div>
-                <div class="form-group col-xs-6 col-md-4">
-                    <label for="Member size">Member Size</label>
+                <div class="required form-group col-xs-6 col-md-4">
+                    <label class="control-label" for="Member size">Member Size</label>
                     <select name="memberSize" id="region" class="form-control" required>
                         <option value="" disabled selected>Select size</option>
                         <option value="0-50" selected="selected">0-50</option>
@@ -71,8 +71,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="form-group col-xs-6 col-md-6">
-                    <label for="Email">Email</label>
+                <div class="required form-group col-xs-6 col-md-6">
+                    <label class="control-label" for="Email">Email</label>
                     <input type="email" name="email" value="J@P.com" class="form-control" required>
                 </div>
                 <div class="form-group col-xs-6 col-md-6">
