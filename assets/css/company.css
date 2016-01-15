@@ -123,6 +123,15 @@ h1.text-center.howItWorksHead {
   white-space: nowrap;
   text-align: justify;
 }
+.inner-case-study {
+  padding: 0;
+}
+.case-study-text {
+  padding-left: 0;
+}
+.case-study-image {
+  padding-right: 0;
+}
 #services {
   background-color: #85ABCF;
 }
