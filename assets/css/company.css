@@ -111,6 +111,13 @@ ul {
   list-style-type: none;
   display: inline-block;
 }
+section#howItWorks {
+    background-color: #f2f2f2;
+}
+h1.text-center.howItWorksHead {
+    margin: 0;
+    padding: 1em;
+}
 #services {
   background-color: #85ABCF;
 }
@@ -128,7 +135,9 @@ ul {
   display: block;
   margin-left: -20em;
 }
-
+.case-numbers {
+  font-size: 3em;
+}
 /*timeline css below*/
 
 .timeline {

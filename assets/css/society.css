@@ -7,6 +7,14 @@ img {
 
 /* navigation */
 
+section#howItWorks {
+    background-color: #f2f2f2;
+}
+h1.text-center.howItWorksHead {
+    margin: 0;
+    padding: 1em;
+}
+
  .homeNav a{
   color: #000000;
   font-weight: bold;
