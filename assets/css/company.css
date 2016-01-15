@@ -199,9 +199,6 @@ h1.text-center.howItWorksHead {
     display: none;
   }
 
-  img{
-    max-width: 70%;
-  }
 }
 /* 
 @media screen and (min-width: 1000px) {

@@ -89,6 +89,10 @@ a:hover {
   text-align: center;
 }
 
+#howItWorks img{
+    max-width: 80%;
+}
+
 /*admin login basic authentication styling*/
 
 .hidden {
@@ -251,4 +255,8 @@ footer {
         display: block;
         width: 100%;
     }
+    #howItWorks img{
+    max-width: 30%;
+    }
+
 }
