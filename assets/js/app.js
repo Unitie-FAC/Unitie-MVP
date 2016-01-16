@@ -1,18 +1,40 @@
+function successMessage(inputId, outputId) {
 
-function successMessage(inputId, outputId){
+    document.getElementById(inputId).addEventListener("click", function(e) {
 
-  document.getElementById(inputId).addEventListener("click", function(e) {
+        var submitBtn = document.getElementById('submit').addEventlistenr;
+        var output = document.getElementById(outputId);
+        output.innerHTML = "";
+        
+          
+   	    var inputs = $("form").find(':input');
+     	var ArrInputs = Object.keys(inputs).slice(0, -4);
+      	var requiredArr = [];
+       	 
+       	 ArrInputs.forEach(function(ele){
+       	 	if (inputs[ele].className === 'form-control required'){
+       	 		requiredArr.push(inputs[ele]); 
+       	 	}
+       	 });
 
-	var message ="Thank you for registering your details, we'll be in contact shortly";
-    var submitBtn = document.getElementById('submit').addEventlistenr;
-    var output = document.getElementById(outputId);
-        output.innerHTML="";
-    var newEl   = output.innerHTML += "<h2>"+message+"</h2>";
-    $('form').addClass('hide');
+       var  requiredEmpty = false;
+       requiredArr.forEach(function(ele) {
+            if (ele.value === '') {
+        	   requiredEmpty = true;
+        	   console.log('error');
+       		}
+        }); 
+       	if (requiredEmpty === false){
+        var message = "Thank you for registering your details, we'll be in contact shortly";
+        var newEl = output.innerHTML += "<div class='successMessage text-center'><h2>" + message + "</h2><a href=/society><button>Register</butotn></a>";
+        $('form').addClass('hide');
+        }
+
+
     });
 
 
 
 }
 
-successMessage('submit','messageOut');
+successMessage('submit', 'messageOut');

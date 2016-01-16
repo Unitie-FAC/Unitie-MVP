@@ -4,9 +4,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-p {
-  text-align: justify;
-}
 
 /*navigation*/
 
@@ -180,10 +177,7 @@ h1.text-center.howItWorksHead {
 
 
 @media screen and (min-width: 200px) and (max-width: 799px) {
-  .title{
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
+
 
   .whyus-icon-size {
     font-size: 2em;
@@ -200,12 +194,15 @@ h1.text-center.howItWorksHead {
   }
 
 }
-/* 
-@media screen and (min-width: 1000px) {
-  .whyus-icon-size {
-    font-size: 4em;
-  }
+
+@media screen  and (min-device-width: 1200px),(max-device-width: 1600px),(-webkit-min-device-pixel-ratio: 1) { 
    #whyUsText {
     font-size: 2em;
   }
-} */
+  .
+    
+
+}
+
+
+
