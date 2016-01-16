@@ -27,32 +27,3 @@
  }
 
 
-
-      /*function successMessage(inputId, outputId) {
-
-          document.getElementById(inputId).addEventListener("click", function(e) {
-
-              var submitBtn = document.getElementById('submit').addEventlistenr;
-              var output = document.getElementById(outputId);
-              output.innerHTML = "";
-              
-                
-         	  
-             	$('form').addClass('hide');
-             	$('#successMessage').addClass('hide');
-              var message = "Thank you for registering your details, we'll be in contact shortly";
-              var newEl = output.innerHTML += "
-           
-              }
-
-            
-
-
-          });
-
-
-
-      }
-
-      //successMessage('submit', 'messageOut');
-      */
