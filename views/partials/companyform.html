@@ -1,6 +1,5 @@
 <section id="register">
     <div class="container">
-
         <form role="form" method="POST" action="/companyredis" onsubmit="">
             <h1 class="text-center">COMPANY FORM</h1>
             <div class="row">
@@ -157,11 +156,14 @@
             </div>
             <div class="row">
                 <div class="form-group col-xs-12 col-md-12 text-center">
-                  <button id="submit" type="submit" class="btn btn-default">Submit</button>
+                    <button onclick="hideNShow('form' , '#successMessage')" id="submit" type="submit" class="btn btn-default">Submit</button>
                 </div>
             </div>
         </form>
-  
     </div>
-    <output class="text-center title" id="messageOut"></output>
+    <output class="text-center title" id="messageOut">
+        <div id='successMessage' class='hide text-center'>
+            <h2>Thank you for registering your details, we'll be in contact shortly</h2>
+            <button onclick="hideNShow('#successMessage', 'form')">Register</butotn>
+    </output>
 </section>
