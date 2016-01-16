@@ -149,13 +149,13 @@ a:hover {
     color: red;
 }
 
-.successMessage {
+#successMessage {
     margin:2em;
     text-align: center;
     padding-bottom: 2em;
 }
 
-.successMessage h2 {
+#successMessage h2 {
     color: white;
 }
 .checkbox-inline+.checkbox-inline {

@@ -1,3 +1,11 @@
+  function hideNShow(){
+        		$('#successMessage').addClass('hide');
+        	    $('form')[0].reset();
+        	    $('form').addClass('show');
+   }
+
+
+
 function successMessage(inputId, outputId) {
 
     document.getElementById(inputId).addEventListener("click", function(e) {
@@ -26,9 +34,11 @@ function successMessage(inputId, outputId) {
         }); 
        	if (requiredEmpty === false){
         var message = "Thank you for registering your details, we'll be in contact shortly";
-        var newEl = output.innerHTML += "<div class='successMessage text-center'><h2>" + message + "</h2><a href=/society><button>Register</butotn></a>";
+        var newEl = output.innerHTML += "<div id='successMessage' class='text-center'><h2>" + message + "</h2><button onclick='hideNShow()'>Register</butotn></a>";
         $('form').addClass('hide');
         }
+
+      
 
 
     });
