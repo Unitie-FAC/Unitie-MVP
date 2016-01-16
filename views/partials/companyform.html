@@ -1,15 +1,16 @@
 <section id="register">
     <div class="container">
+
         <form role="form" method="POST" action="/companyredis" onsubmit="">
             <h1 class="text-center">COMPANY FORM</h1>
             <div class="row">
                 <div class="form-group required col-xs-6 col-md-4">
                     <label class="control-label" for="companyName">Company Name</label>
-                    <input type="text" name="companyName" value="companyX" class="form-control" required>
+                    <input type="text" name="companyName" value="companyX" class="form-control required" required>
                 </div>
                 <div class="required form-group col-xs-6 col-md-4">
                     <label class="control-label" for="industryType">Industry Type</label>
-                    <select name="industryType" id="industry" class="form-control" required>
+                    <select name="industryType" id="industry" class="form-control required" required>
                         <option value="" selected>Select industry</option>
                         <option value="Aeronautics and Defence">Aeronautics and Defence</option>
                         <option value="Alternative Investment Instruments">Alternative Investment Instruments</option>
@@ -52,13 +53,13 @@
                 </div>
                 <div class="required form-group col-xs-6 col-md-4">
                     <label class="control-label" for="contactName">Contact Name</label>
-                    <input type="text" name="contactName" value="Mr B Riddle" class="form-control" required>
+                    <input type="text" name="contactName" value="Mr B Riddle" class="form-control required" required>
                 </div>
             </div>
             <div class="row">
                 <div class="required form-group col-xs-6 col-md-6">
                     <label class="control-label" for="email">Email</label>
-                    <input type="email" name="email" value="companyX@X.com" class="form-control" required>
+                    <input type="email" name="email" value="companyX@X.com" class="form-control required" required>
                 </div>
                 <div class="form-group col-xs-6 col-md-6">
                     <label for="phone">Phone</label>
@@ -157,8 +158,10 @@
             <div class="row">
                 <div class="form-group col-xs-12 col-md-12 text-center">
                     <button id="submit" type="submit" class="btn btn-default">Submit</button>
-                    <output id="messageOut"></output>
                 </div>
+            </div>
         </form>
-        </div>
+  
+    </div>
+    <output class="text-center title" id="messageOut"></output>
 </section>
