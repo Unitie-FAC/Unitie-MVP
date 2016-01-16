@@ -135,6 +135,10 @@ a:hover {
     background-color: #c8d9e9;
 }
 
+output {
+    margin:5em;
+}
+
 .form-group.required .control-label:after {
     content: "*";
     color: red;
