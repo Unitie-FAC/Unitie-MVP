@@ -2,7 +2,7 @@
         		$('#successMessage').addClass('hide');
         	    $('form')[0].reset();
         	    $('form').addClass('show');
-   }
+  }
 
 
 
