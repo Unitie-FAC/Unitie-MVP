@@ -156,14 +156,15 @@
             </div>
             <div class="row">
                 <div class="form-group col-xs-12 col-md-12 text-center">
-                    <button onclick="hideNShow('form' , '#successMessage')" id="submit" type="submit" class="btn btn-default">Submit</button>
+                    <button onclick="hideNShowForm('form' , '#successMessage')" id="submit" type="submit" class="btn btn-default">Submit</button>
                 </div>
             </div>
         </form>
     </div>
     <output class="text-center title" id="messageOut">
         <div id='successMessage' class='hide text-center'>
+            {{object}} {{this.message}}  {{ this.class}}
             <h2>Thank you for registering your details, we'll be in contact shortly</h2>
-            <button onclick="hideNShow('#successMessage', 'form')">Register</butotn>
+            <button onclick="hideNShowThankyou('#successMessage', 'form')">Register</butotn>
     </output>
 </section>
