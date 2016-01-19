@@ -42,6 +42,10 @@ img {
 #whyUsText {
   font-size: 3em;
 }
+.whyUsText {
+    font-size: 3em;
+    padding: 0.6em 0;
+}
 .imgWu {
   text-align: center;
   margin-bottom: 1em;
@@ -165,13 +169,17 @@ h1#ourWorkHead {
 
 /*media Queries */
 
-@media screen and (min-width: 200px) and (max-width: 799px) {
+@media screen and (min-width: 200px) and (max-width: 600px) {
   .whyus-icon-size {
     font-size: 2em;
   }
   #whyUsText {
     font-size: 1em;
   }
+  .whyUsText {
+    font-size: 1.25em;
+    padding: 0.6em 0;
+}
   .vcenter {
     margin-top: 0em;
   }
