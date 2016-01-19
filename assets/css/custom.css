@@ -149,13 +149,13 @@ a:hover {
     color: red;
 }
 
-.successMessage {
+#successMessage {
     margin:2em;
     text-align: center;
     padding-bottom: 2em;
 }
 
-.successMessage h2 {
+#successMessage h2 {
     color: white;
 }
 .checkbox-inline+.checkbox-inline {
@@ -250,8 +250,9 @@ a:hover {
 }
 
 footer {
-    margin: 4em;
-    height: 10em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    height: 2em;
 }
 
 @media screen and (max-device-width: 800px) {
