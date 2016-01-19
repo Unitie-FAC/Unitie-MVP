@@ -128,6 +128,13 @@ h1.text-center.howItWorksHead {
   margin: 0;
   padding: 1em;
 }
+/*'Our Work' Case studies section*/
+h1#ourWorkHead {
+        color: #666666;
+}
+#caseStudies2 {
+  color: #666666;
+}
 .inner-case-study {
   padding: 0;
 }
