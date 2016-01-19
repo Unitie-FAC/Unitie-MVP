@@ -21,8 +21,8 @@
                 <div class="required form-group col-xs-6 col-md-4">
                     <label class="control-label" for="Region">Region </label>
                     <select name="region" id="region" class="form-control required" required>
-                        <option value="" disabled selected>Select region</option>
-                        <option value="East" selected="selected">East</option>
+                        <option value="" selected>Select region</option>
+                        <option value="East" >East</option>
                         <option value="East Midlands">East Midlands</option>
                         <option value="London">London</option>
                         <option value="North East">North East</option>
@@ -39,7 +39,8 @@
                 <div class="required form-group col-xs-6 col-md-4">
                     <label class="control-label" for="Type of society">Type of society</label>
                     <select name="typeSociety" id="typeSociety" class="form-control required" required>
-                        <option value="Academic & Employability" selected="selected">Academic & Employability</option>
+                        <option value="" selected>Select type of society</option>
+                        <option value="Academic & Employability" >Academic & Employability</option>
                         <option value="Arts & Culture">Arts & Culture</option>
                         <option value="Faith & Worldview">Faith & Worldview</option>
                         <option value="Fitness & Wellbeing">Fitness & Wellbeing</option>
@@ -57,23 +58,20 @@
                 <div class="required form-group col-xs-6 col-md-4">
                     <label class="control-label" for="Member size">Member Size</label>
                     <select name="memberSize" id="mSize" class="form-control required" required>
-                        <option value="" disabled selected>Select size</option>
-                        <option value="0-50" selected="selected">0-50</option>
+                        <option value="" selected>Select size</option>
+                        <option value="0-50" >0-50</option>
                         <option value="51-100">51-100</option>
                         <option value="101-150">101-150</option>
                         <option value="151-200">151-200</option>
                         <option value="200+">200 +</option>
                     </select>
                 </div>
-                <div class="form-group col-xs-6 col-md-6">
-                    <label for="societyLogo">Society Logo</label>
-                    <input type="file" name="societyLogo" placeholder="societyLogo" id="fileinput" class="form-control" accept="image/*">
-                </div>
+           
             </div>
             <div class="row">
                 <div class="required form-group col-xs-6 col-md-6">
                     <label class="control-label" for="Email">Email</label>
-                    <input  id='email' type="email" name="email" value="J@P.com" class="form-control required" required>
+                    <input id='email' type="email" name="email" value="J@P.com" class="form-control required" required>
                 </div>
                 <div class="form-group col-xs-6 col-md-6">
                     <label for="phone"> Phone </label>
@@ -82,12 +80,14 @@
             </div>
             <div class="row">
                 <div class="form-group col-xs-12 col-md-12 text-center">
-                    <button id="submit" type="submit" class="btn btn-default">Submit</button>
-                 
+                    <button onclick="hideNShowForm('form' , '#successMessage')" id="submit" type="submit" class="btn btn-default">Submit</button>
                 </div>
-
             </div>
         </form>
-        <output id="messageOut"></output>
     </div>
+    <output class="text-center title" id="messageOut">
+        <div id='successMessage' class='hide text-center'>
+            <h2>Thank you for registering your details, we'll be in contact shortly</h2>
+            <button onclick="hideNShowThankyou('#successMessage', 'form')">Register</butotn>
+    </output>
 </section>

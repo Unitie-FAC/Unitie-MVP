@@ -40,7 +40,7 @@ img {
 
 
 #whyUsText {
-  font-size: 4em;
+  font-size: 3em;
 
 }
 
@@ -129,10 +129,7 @@ img {
   padding: 0;
   height: 45em;
 }
-ul {
-  list-style-type: none;
-  display: inline-block;
-}
+
 section#howItWorks {
     background-color: #f2f2f2;
 }
@@ -176,6 +173,8 @@ h1.text-center.howItWorksHead {
 /*media Queries */
 
 
+
+
 @media screen and (min-width: 200px) and (max-width: 799px) {
 
 
@@ -194,13 +193,6 @@ h1.text-center.howItWorksHead {
   }
 
 }
-
-@media screen  and (min-device-width: 1200px),(max-device-width: 1600px),(-webkit-min-device-pixel-ratio: 1) { 
-   #whyUsText {
-    font-size: 2em;
-  }
-  .
-    
 
 }
 
