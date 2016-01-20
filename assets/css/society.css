@@ -92,5 +92,8 @@ h1.text-center.howItWorksHead {
 @media screen and (max-device-width: 800px) {
     .contactClient { text-decoration: none;
                   }
+    .societyBannerImage {
+      height:25em;
+    }
 
 }

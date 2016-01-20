@@ -25,6 +25,11 @@ img {
   color: #000000;
   font-weight: bold;
 }
+
+/* Why Us Section  */
+.whyUsWrapper{ 
+  padding-top:2em;
+}
 .whyUsNav a {
   color: #000000;
   font-weight: bold;
@@ -35,7 +40,6 @@ img {
   font-weight: bold;
 }
 
-/* Why Us Section  */
 #whyUs{
   color: white;
 }
@@ -164,6 +168,13 @@ h1#ourWorkHead {
 }
 
 /*media Queries */
+@media screen and (max-device-width: 800px){
+  .whyUsText {
+    font-size: 2em;
+  }
+
+}
+
 
 @media screen and (min-width: 200px) and (max-width: 600px) {
   .whyus-icon-size {
