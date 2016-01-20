@@ -27,7 +27,7 @@ img {
 }
 
 /* Why Us Section  */
-.whyUsWrapper{ 
+.whyUsWrapper{
   padding-top:2em;
 }
 .whyUsNav a {
@@ -195,4 +195,11 @@ h1#ourWorkHead {
   }
 }
 
+@media only screen and (max-device-width: 350px) {
+  .vcenter {
+    font-size: 10px;
+  }
+  .whyUsText {
+    font-size: 0.95em;
+}
 }
