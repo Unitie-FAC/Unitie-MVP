@@ -53,7 +53,6 @@ a:hover {
     width: auto;
     height: 50px;
     margin: 5px;
-    margin-left: 4em;
 }
 
 .title {
@@ -63,7 +62,7 @@ a:hover {
 
 .introText {
     text-align: center;
-    padding-top: 15em;
+    padding-top: 14em;
     color: white;
     margin: 0 4em;
 }
@@ -282,6 +281,3 @@ footer {
     }
 
 }
-
-
-
