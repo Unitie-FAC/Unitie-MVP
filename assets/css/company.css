@@ -25,6 +25,11 @@ img {
   color: #000000;
   font-weight: bold;
 }
+
+/* Why Us Section  */
+.whyUsWrapper{ 
+  padding-top:2em;
+}
 .whyUsNav a {
   color: #000000;
   font-weight: bold;
@@ -35,37 +40,34 @@ img {
   font-weight: bold;
 }
 
-
-/* Why Us Section  */
-
-
+#whyUs{
+  color: white;
+}
 #whyUsText {
   font-size: 3em;
-
 }
-
-.imgWu{
+.whyUsText {
+    font-size: 3em;
+    padding: 0.6em 0;
+}
+.imgWu {
   text-align: center;
   margin-bottom: 1em;
 }
-
 #services, #whyUs {
   background-color: #85ABCF;
 }
-
 .whyUsList {
   list-style: none;
-  text-decoration: none; 
+  text-decoration: none;
   position: relative;
 }
-
 .vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-    margin-top: 4em;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  margin-top: 2.5em;
 }
-
 
 /* how it works  */
 
@@ -105,8 +107,6 @@ img {
   font-weight: bold;
   color: #000000
 }
-
-
 .img-fillcircle {
   background: url(../images/people.png);
   background-size: cover;
@@ -129,29 +129,26 @@ img {
   padding: 0;
   height: 45em;
 }
-
 section#howItWorks {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
-
 h1.text-center.howItWorksHead {
-    margin: 0;
-    padding: 1em;
+  margin: 0;
+  padding: 1em;
 }
-
+/*'Our Work' Case studies section*/
+h1#ourWorkHead {
+        color: #666666;
+}
+#caseStudies2 {
+  color: #666666;
+}
 .inner-case-study {
   padding: 0;
 }
-
 .case-study-text {
-  padding-left: 0;
+  margin-top: 3.5em;
 }
-.case-study-image {
-  padding-right: 0;
-}
-
-
-
 #introHeader {
   color: #85ABCF;
   font-weight: 700;
@@ -171,30 +168,31 @@ h1.text-center.howItWorksHead {
 }
 
 /*media Queries */
+@media screen and (max-device-width: 800px){
+  .whyUsText {
+    font-size: 2em;
+  }
+
+}
 
 
-
-
-@media screen and (min-width: 200px) and (max-width: 799px) {
-
-
+@media screen and (min-width: 200px) and (max-width: 600px) {
   .whyus-icon-size {
     font-size: 2em;
   }
   #whyUsText {
     font-size: 1em;
   }
+  .whyUsText {
+    font-size: 1.25em;
+    padding: 0.6em 0;
+}
   .vcenter {
     margin-top: 0em;
   }
-
-  .hideInMobile{
+  .hideInMobile {
     display: none;
   }
-
 }
 
 }
-
-
-

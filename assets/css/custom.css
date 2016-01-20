@@ -6,14 +6,15 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-section#howItWorks  {
-
+section#howItWorks {
     background-color: #f2f2f2;
     padding-bottom: 1em;
 }
-#mainHeader{
+
+#mainHeader {
     font-size: 3.2em;
 }
+
 a {
     text-decoration: none;
 }
@@ -31,6 +32,7 @@ a:hover {
 .single-fet {
     text-align: center;
 }
+
 
 /*  Navigation  */
 
@@ -53,7 +55,6 @@ a:hover {
     width: auto;
     height: 50px;
     margin: 5px;
-    margin-left: 4em;
 }
 
 .title {
@@ -63,7 +64,7 @@ a:hover {
 
 .introText {
     text-align: center;
-    padding-top: 15em;
+    padding-top: 14em;
     color: white;
     margin: 0 4em;
 }
@@ -71,7 +72,6 @@ a:hover {
 .introText h1 {
     color: #85ABCF;
     font-weight: bolder;
-
 }
 
 .introText h2 {
@@ -90,17 +90,17 @@ a:hover {
     height: 150px;
 }
 
-
-.howItWorksSubHead{
-  white-space: nowrap;
-  text-align: justify;
-  font-size: 1.25em;
-  text-align: center;
+.howItWorksSubHead {
+    white-space: nowrap;
+    text-align: justify;
+    font-size: 1.25em;
+    text-align: center;
 }
 
-#howItWorks img{
+#howItWorks img {
     max-width: 80%;
 }
+
 
 /*admin login basic authentication styling*/
 
@@ -122,25 +122,29 @@ a:hover {
 
 /* registration forms */
 
-#register h1, #register p #register h2 {
+#register h1,
+#register p #register h2 {
     color: white;
     margin-bottom: 1em;
 }
 
-
 #register {
-    background-color:#85ABCF;
-    width:100%;
-
+    background-color: #85ABCF;
+    width: 100%;
 }
+
 #register form {
-    background-color:#85ABCF;
+    background-color: #85ABCF;
     padding: 1em;
     margin: 1em;
     border-radius: 15px;
     color: white;
 }
-#register input, #register select, #register textarea, .checkbox {
+
+#register input,
+#register select,
+#register textarea,
+.checkbox {
     background-color: #c8d9e9;
 }
 
@@ -150,7 +154,7 @@ a:hover {
 }
 
 #successMessage {
-    margin:2em;
+    margin: 2em;
     text-align: center;
     padding-bottom: 2em;
 }
@@ -158,13 +162,14 @@ a:hover {
 #successMessage h2 {
     color: white;
 }
+
 .checkbox-inline+.checkbox-inline {
-    margin:0;
+    margin: 0;
 }
 
 .label {
     font-size: 100%;
-    margin:1em;
+    margin: 1em;
 }
 
 #register button {
@@ -176,8 +181,6 @@ a:hover {
 .inner-container {
     padding-bottom: 2em;
 }
-
-
 
 #loginform {
     margin: 0 auto;
@@ -213,21 +216,24 @@ a:hover {
     padding: 0;
     overflow: hidden;
 }
+
 #socialNav {
     display: table;
     height: 87px;
     width: 100%;
 }
 
-#socialNav li{
+#socialNav li {
     display: table-cell;
- height: 87px;
- width: 16.666666667%;  /* (100 / numItems)% */
- line-height: 87px;
- text-align: center;
- border-right: 1px solid #fff;
- white-space: nowrap;
+    height: 87px;
+    width: 16.666666667%;
+    /* (100 / numItems)% */
+    line-height: 87px;
+    text-align: center;
+    border-right: 1px solid #fff;
+    white-space: nowrap;
 }
+
 .social li {
     display: relative;
     position: inline-block;
@@ -256,9 +262,12 @@ footer {
 }
 
 @media screen and (max-device-width: 800px) {
-    .title{
-            margin-top: 0.5em;
-            margin-bottom: 0.5em;
+    .title {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    .introText {
+        padding-top: 10em;
     }
     #contactList a {
         font-size: 2em;
@@ -273,15 +282,11 @@ footer {
         height: 4em;
         text-decoration: none;
     }
-    #socialNav li {
-        display: block;
-        width: 100%;
+  /*   #socialNav li {
+      display: block;
+      width: 100%;
+  } */
+    #howItWorks img {
+        max-width: 30%;
     }
-    #howItWorks img{
-    max-width: 30%;
-    }
-
 }
-
-
-

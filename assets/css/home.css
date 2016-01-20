@@ -6,9 +6,11 @@ body {
     overflow: hidden;
     font-family: 'Quicksand', sans-serif;
 }
+
 #mainHeader {
     font-size: 3.2em;
 }
+
 #mainSubHead {
     font-size: 1.8em;
 }
@@ -46,7 +48,7 @@ video#bgvid {
     float: left;
     position: top;
     display: inline-block;
-    margin-top: 1em;
+    margin-top: 0.55em;
     margin-left: 4em;
 }
 
@@ -77,11 +79,11 @@ a {
     background: rgba(255, 0, 0, 0);
     text-decoration: none;
     color: white;
-    font-family: TheSans;
-    padding: 9px 20px;
+    font-family: 'Quicksand', 'PT Sans', sans-serif;
+    padding: 17px 40px;
     line-height: 14px;
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 1.25em;
+    font-weight: bolder;
 }
 
 .homeButton a:hover {
@@ -113,15 +115,6 @@ a {
     #bgvid {
         display: none;
     }
-    #unitie {
-        font-weight: bolder;
-        font-size: 2em;
-        color: white;
-        float: left;
-        position: top;
-        display: inline-block;
-        margin-left: 1em;
-    }
     .rightMenu {
         float: right;
         margin: 1em;
@@ -139,15 +132,15 @@ a {
     .homeButton,
     .homeButton a {
         border-radius: 25px;
-        border: solid 2px white;
+        border: solid 1px white;
         background: rgba(255, 0, 0, 0);
-        margin: 1em 0.5em;
-        padding: 5px;
         text-decoration: none;
         color: white;
+        font-family: 'Quicksand', 'PT Sans', sans-serif;
+        padding: 17px 40px;
+        line-height: 14px;
         font-size: 0.75em;
-        display: inline-block;
-        position: relative;
+        font-weight: bolder;
     }
     .homeButton a:hover {
         color: #3cb0fd;
@@ -163,5 +156,26 @@ a {
         margin-top: 8em;
     }
 }
-/* for iphone 6 in portrait */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+@media only screen and (max-device-width: 800px) {
+    #unitie {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+}
+
+
+/* for iphone 6 in landscape*/
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    #unitie {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    #mainHeader {
+        font-size: 2em;
+    }
+    #mainSubHead {
+        font-size: 1em;
+    }
+}
