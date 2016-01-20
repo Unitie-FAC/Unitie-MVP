@@ -1,1 +1,1 @@
-console.log('Successfull addition to database');
+console.log('');
