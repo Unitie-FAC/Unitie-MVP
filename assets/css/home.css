@@ -1,79 +1,120 @@
-html,
-body {
-    color: white;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    font-family: 'Quicksand', sans-serif;
+html, body {
+  color: white;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
 }
-
 #mainHeader {
-    font-size: 3.2em;
+  font-size: 3.2em;
 }
-
 #mainSubHead {
-    font-size: 1.8em;
+  font-size: 1.8em;
 }
-
 video#bgvid {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(../images/firstframe.png) no-repeat;
-    background-size: cover;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(../images/firstframe.png) no-repeat;
+  background-size: cover;
 }
-
 .homeBanner {
-    height: 70px;
-    background-color: none;
-    width: 100%;
-    vertical-align: top;
-    border-radius: 0;
-    display: block;
+  height: 70px;
+  background-color: none;
+  width: 100%;
+  vertical-align: top;
+  border-radius: 0;
+  display: block;
 }
-
 #unitie {
-    font-weight: bolder;
-    font-size: 2em;
-    color: white;
-    float: left;
-    position: top;
-    display: inline-block;
-    margin-top: 0.55em;
-    margin-left: 4em;
+  font-weight: bolder;
+  font-size: 2em;
+  color: white;
+  float: left;
+  position: top;
+  display: inline-block;
+  margin-top: 0.55em;
+  margin-left: 4em;
 }
-
 .rightMenu {
+  float: right;
+  margin: 2em;
+  margin-right: 5em;
+  vertical-align: middle;
+  font-weight: normal;
+  color: white;
+  display: inline-block;
+  position: top;
+}
+.homeBanner a {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.homeButton, .homeButton a {
+  border-radius: 25px;
+  border: solid 1px white;
+  background: rgba(255, 0, 0, 0);
+  text-decoration: none;
+  color: white;
+  font-family: 'Quicksand', 'PT Sans', sans-serif;
+  padding: 17px 40px;
+  line-height: 14px;
+  font-size: 1.25em;
+  font-weight: bolder;
+}
+.homeButton a:hover {
+  color: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.buttonWrapper {
+  margin-top: 4em;
+}
+.text-center {
+  text-align: center;
+  margin-top: 15em;
+}
+@media screen and (max-device-width: 800px) {
+  body {
+    background-image: url(../images/firstframe.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #bgvid {
+    display: none;
+  }
+  .rightMenu {
     float: right;
-    margin: 2em;
-    margin-right: 5em;
+    margin: 1em;
+    margin-right: 1em;
     vertical-align: middle;
     font-weight: normal;
     color: white;
     display: inline-block;
     position: top;
-}
-
-.homeBanner a {
-    text-decoration: none;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.homeButton,
-.homeButton a {
+  }
+  .homeButton {
+    display: inline-block;
+    position: relative;
+  }
+  .homeButton, .homeButton a {
     border-radius: 25px;
     border: solid 1px white;
     background: rgba(255, 0, 0, 0);
@@ -82,11 +123,10 @@ a {
     font-family: 'Quicksand', 'PT Sans', sans-serif;
     padding: 17px 40px;
     line-height: 14px;
-    font-size: 1.25em;
+    font-size: 0.75em;
     font-weight: bolder;
-}
-
-.homeButton a:hover {
+  }
+  .homeButton a:hover {
     color: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
@@ -94,88 +134,44 @@ a {
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
-}
-
-.buttonWrapper {
-    margin-top: 4em;
-}
-
-.text-center {
+  }
+  .text-center {
     text-align: center;
-    margin-top: 15em;
+    margin-top: 8em;
+  }
 }
-
-@media screen and (max-device-width: 800px) {
-    body {
-        background-image: url(../images/firstframe.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    #bgvid {
-        display: none;
-    }
-    .rightMenu {
-        float: right;
-        margin: 1em;
-        margin-right: 1em;
-        vertical-align: middle;
-        font-weight: normal;
-        color: white;
-        display: inline-block;
-        position: top;
-    }
-    .homeButton {
-        display: inline-block;
-        position: relative;
-    }
-    .homeButton,
-    .homeButton a {
-        border-radius: 25px;
-        border: solid 1px white;
-        background: rgba(255, 0, 0, 0);
-        text-decoration: none;
-        color: white;
-        font-family: 'Quicksand', 'PT Sans', sans-serif;
-        padding: 17px 40px;
-        line-height: 14px;
-        font-size: 0.75em;
-        font-weight: bolder;
-    }
-    .homeButton a:hover {
-        color: #3cb0fd;
-        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-        text-decoration: none;
-    }
-    .text-center {
-        text-align: center;
-        margin-top: 8em;
-    }
-}
-
 @media only screen and (max-device-width: 800px) {
-    #unitie {
-        margin-top: 5px;
-        margin-left: 10px;
-    }
+  #unitie {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  #mainHeader {
+    font-size: 2em;
+  }
+  #mainSubHead {
+    font-size: 1em;
+  }
 }
 
+/*for iphone 5*/
+
+@media only screen and (max-device-width: 350px) {
+  .homeButton {
+    padding: 17px 30px;
+  }
+}
 
 /* for iphone 6 in landscape*/
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-    #unitie {
-        margin-top: 5px;
-        margin-left: 10px;
-    }
-    #mainHeader {
-        font-size: 2em;
-    }
-    #mainSubHead {
-        font-size: 1em;
-    }
+  #unitie {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  #mainHeader {
+    font-size: 2em;
+  }
+  #mainSubHead {
+    font-size: 1em;
+  }
 }
