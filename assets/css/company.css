@@ -27,7 +27,7 @@ img {
 }
 
 /* Why Us Section  */
-.whyUsWrapper{ 
+.whyUsWrapper{
   padding-top:2em;
 }
 .whyUsNav a {
@@ -47,12 +47,13 @@ img {
   font-size: 3em;
 }
 .whyUsText {
-    font-size: 3em;
-    padding: 0.6em 0;
+    font-size: 4em;
+    padding: 0.3em 0;
 }
 .imgWu {
   text-align: center;
   margin-bottom: 1em;
+  padding: 0;
 }
 #services, #whyUs {
   background-color: #85ABCF;
