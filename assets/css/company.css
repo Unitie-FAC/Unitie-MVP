@@ -167,7 +167,7 @@ h1#ourWorkHead {
 
 /*media Queries */
 
-@media screen and (max-device-width:1300px ){
+@media screen and (max-device-width:1400px ){
    .whyUsText {
     font-size: 2em;
   }
