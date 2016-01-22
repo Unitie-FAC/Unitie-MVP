@@ -43,9 +43,7 @@ img {
 #whyUs{
   color: white;
 }
-#whyUsText {
-  font-size: 3em;
-}
+
 .whyUsText {
     font-size: 4em;
     padding: 0.3em 0;
@@ -168,6 +166,12 @@ h1#ourWorkHead {
 }
 
 /*media Queries */
+
+@media screen and (max-device-width:1400px ){
+   .whyUsText {
+    font-size: 2.5em;
+  }
+}
 @media screen and (max-device-width: 800px){
   .whyUsText {
     font-size: 2em;

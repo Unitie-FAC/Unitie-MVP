@@ -86,7 +86,7 @@
             </div>
         </div>
 </section>
-<section id="register">
+<section id="register" autofocus>
     <div class="container">
         <form role="form" action="/societyredis" method="POST" id="societyForm" class="hide">
             <h1 class="text-center ">SIGN UP NOW!</h1>
@@ -168,15 +168,15 @@
             </div>
             <div class="row">
                 <div class="form-group col-xs-12 col-md-12 text-center">
-                    <button onclick="hideNShowForm('form' , '#successMessage')" id="submit" type="submit" class="btn btn-default">Submit</button>
+                    <button  id="submit" type="submit" class="btn btn-default">Submit</button>
                 </div>
             </div>
         </form>
     </div>
     <output class="text-center title" id="messageOut">
         <div id='successMessage' class='show text-center' autofocus>
-            <h2>Thank you for registering your details, we'll be in contact shortly</h2>
-            <button onclick="hideNShowThankyou('#successMessage', 'form')">Register</butotn>
+            <h2>Thank you for signing up! We'll be in contact shortly!</h2>
+            <button onclick="hideNShowThankyou('#successMessage', 'form')">Sign up another Society!</butotn>
     </output>
 
 </section>
@@ -214,8 +214,8 @@
 <script>
 
 function focusMe(){
-  window.location = "http://localhost:8000/societyredis#register"
-};
+  window.location = "http://localhost:8000/societyredis#register";
+}
 
 focusMe();
 
