@@ -43,7 +43,7 @@ video#bgvid {
   position: top;
   display: inline-block;
   margin-top: 0.55em;
-  margin-left: 4em;
+  margin-left: 1em;
 }
 .rightMenu {
   float: right;
