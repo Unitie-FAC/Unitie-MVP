@@ -167,14 +167,14 @@ h1#ourWorkHead {
 
 /*media Queries */
 
-@media screen and (max-device-width:1400px ){
+@media screen and (max-device-width:1400px ), only screen and (max-width:1400px ){
    .whyUsText {
-    font-size: 2.5em;
+    font-size: 3.5em;
   }
 }
-@media screen and (max-device-width: 800px){
+@media screen and (max-device-width: 1000px),  only screen and (max-width:1000px){
   .whyUsText {
-    font-size: 2em;
+    font-size: 3em;
   }
 
 }
@@ -188,7 +188,7 @@ h1#ourWorkHead {
     font-size: 1em;
   }
   .whyUsText {
-    font-size: 1.25em;
+    font-size: 2em;
     padding: 0.6em 0;
 }
   .vcenter {
@@ -199,7 +199,7 @@ h1#ourWorkHead {
   }
 }
 
-@media only screen and (max-device-width: 350px) {
+@media only screen and (max-device-width: 450px) {
   .vcenter {
     font-size: 10px;
   }
