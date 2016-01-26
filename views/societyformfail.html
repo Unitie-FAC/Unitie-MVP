@@ -1,0 +1,235 @@
+<link rel="stylesheet" type="text/css" href="assets/css/society.css">
+
+<body>
+    <header>
+        <nav class="navbar navbar-fixed-top navbar-custom">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle navbar-custom" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="/"><img id="navLogo" src="../assets/images/newUnitie Logo.png" ></img></a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                    <ul class="nav navbar-nav menuOptions">
+                        <li class="homeNav"><a href="#intro" data-toggle="collapse" data-target=".navbar-collapse">Home</a>    </li>
+                        <li class="aboutUsNav" ><a href="#aboutUs" data-toggle="collapse" data-target=".navbar-collapse">About Us</a></li>
+                        <li class="howItWrksNav"><a href="#howItWorks" data-toggle="collapse" data-target=".navbar-collapse">How Unitie Works</a></li>
+                        <li class="registerNav"><a href="#register" data-toggle="collapse" data-target=".navbar-collapse">Sign Up</a></li>
+                        <li class="contactNav"><a href="#contactUs" data-toggle="collapse" data-target=".navbar-collapse">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="intro">
+        <div class="societyBannerImage">
+            <div class="introText">
+                <h1>200+ Brands. One Platform.</h1>
+                <h2>Find sponsors for your society and events</h2>
+            </div>
+        </div>
+    </section>
+    <section id="aboutUs">
+        <div class="container">
+            <h1 class="text-center title">ABOUT US</h1>
+            <div class="row">
+                 <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                     <img src="./assets/images/aboutUs1.png">
+                 </div>
+                 <div class="col-xs-4 col-md-4 col-lg-4 aboutUsText">
+                       <p>Products, Rewards & Sponsorship</p>
+                       <h3>Society Sponsorship</h3>
+                       <p>Engagements</p>
+                 </div>
+                 <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                         <img src="./assets/images/aboutUs2.png">
+
+                 </div>
+
+            </div>
+                  <div class="text-center inner-container">
+                           <h3> We help student societies collaborate with brands to get sponsorship</h3>
+                </div>
+        </div>
+    </section>
+    <section id="howItWorks">
+        <h1 class="text-center howItWorksHead">HOW UNITIE WORKS</h1>
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row features">
+               <div class="col-lg-4 text-center">
+                 <div class="single-fet">
+                        <div>
+                            <span class="icon-stack icon-4x">
+                                <img src="assets/images/Create.png" class="img-circle" alt="Circular Image">
+                            </span>
+                        </div>
+                        <h2 class="howItWorksSubHead">1. Create your Campaign</h2>
+                        <p>Tell us about your society and we’ll help you build a successful sponsorship campaign. Whether it’s sponsorship for the whole year or for a one off event, our team have you covered!</p>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-4 text-center">
+                     <div class="single-fet">
+                        <div>
+                            <span class="icon-stack icon-4x">
+                                <img src="assets/images/Collaboration.png" class="img-circle" alt="Circular Image">
+                            </span>
+                        </div>
+                        <h2 class="howItWorksSubHead">2. Match With Brands </h2>
+                        <p>Our platform will help you source sponsorship partners, based on your society’s details.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="single-fet">
+                        <div>
+                            <span class="icon-stack icon-4x text-center">
+                                 <img src="assets/images/Manage.png" class="img-circle" alt="Circular Image">
+                             </span>
+                        </div>
+                        <h2 class="howItWorksSubHead">3. Manage Your Campaign</h2>
+                        <p>Use our platform to manage all the details of your sponsorship agreements and share the activities of your society with your sponsors.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</section>
+<section id="register" autofocus>
+    <div class="container">
+        <form role="form" action="/societyredis" method="POST" id="societyForm" class="hide">
+            <h1 class="text-center ">SIGN UP NOW!</h1>
+            <div class="row">
+                <div class="required form-group col-xs-6 col-md-4">
+                    <label class="control-label" for="Society Name">Society Name </label>
+                    <input type="text" id="societyName" placeholder="Society Name" name="societyName" value="GUFC" class="form-control required" required>
+                </div>
+                <div class="required form-group col-xs-6 col-md-4">
+                    <label class="control-label" for="University">University Name</label>
+                    <input type="text" id="university" name="university" placeholder="university auto/comp" value="University of Glasgow" class="form-control required" required>
+                    <output id="universityAcList"></output>
+                </div>
+                <div class="required form-group col-xs-6 col-md-4">
+                    <label class="control-label" for="Specify other ">Specify Other </label>
+                    <input type="text" id="specifyOther" placeholder="specify other institution" value="Langside college" class="form-control required" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="required form-group col-xs-6 col-md-4">
+                    <label class="control-label" for="Region">Region </label>
+                    <select name="region" id="region" class="form-control required" required>
+                        <option value="" selected>Select region</option>
+                        <option value="East" >East</option>
+                        <option value="East Midlands">East Midlands</option>
+                        <option value="London">London</option>
+                        <option value="North East">North East</option>
+                        <option value="North West">North West</option>
+                        <option value="Northern Ireland">Northern Ireland</option>
+                        <option value="Scotland">Scotland</option>
+                        <option value="South East">South East</option>
+                        <option value="South West">South West</option>
+                        <option value="Wales">Wales</option>
+                        <option value="West Midlands">West Midlands</option>
+                        <option value="Yorkshire and the Humber">Yorkshire and the Humber</option>
+                    </select>
+                </div>
+                <div class="required form-group col-xs-6 col-md-4">
+                    <label class="control-label" for="Type of society">Type of society</label>
+                    <select name="typeSociety" id="typeSociety" class="form-control required" required>
+                        <option value="" selected>Select type of society</option>
+                        <option value="Academic & Employability" >Academic & Employability</option>
+                        <option value="Arts & Culture">Arts & Culture</option>
+                        <option value="Faith & Worldview">Faith & Worldview</option>
+                        <option value="Fitness & Wellbeing">Fitness & Wellbeing</option>
+                        <option value="International">International</option>
+                        <option value="Media">Media</option>
+                        <option value="Music">Music</option>
+                        <option value="Outdoor and Adventure">Outdoor and Adventure</option>
+                        <option value="Political, Campaigning & Causes">Political, Campaigning & Causes</option>
+                        <option value="Recreational">Recreational</option>
+                        <option value="Volunteering">Volunteering</option>
+                        <option value="Committee Resources">Committee Resources</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="required form-group col-xs-6 col-md-4">
+                    <label class="control-label" for="Member size">Member Size</label>
+                    <select name="memberSize" id="mSize" class="form-control required" required>
+                        <option value="" selected>Select size</option>
+                        <option value="0-50" >0-50</option>
+                        <option value="51-100">51-100</option>
+                        <option value="101-150">101-150</option>
+                        <option value="151-200">151-200</option>
+                        <option value="200+">200 +</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="required form-group col-xs-6 col-md-6">
+                    <label class="control-label" for="Email">Email</label>
+                    <input id='email' type="email" name="email" value="J@P.com" class="form-control required" required>
+                </div>
+                <div class="form-group col-xs-6 col-md-6">
+                    <label for="phone"> Phone </label>
+                    <input type="text" id="phone" placeholder="Phone" name="phone" value="12312312312" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-xs-12 col-md-12 text-center">
+                    <button  id="submit" type="submit" class="btn btn-default">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <output class="text-center title" id="messageOut">
+        <div id='successMessage' class='show text-center' autofocus>
+            <h2>There has been an error with signing up. Please try again.</h2>
+            <button onclick="hideNShowThankyou('#successMessage', 'form')">Sign up another Society!</butotn>
+    </output>
+
+</section>
+<section id="contactUs">
+    <div class="row inner-container text-center">
+        <h1 class="text-center">CONTACT US</h1>
+        <div id="contactList" class="text-center">
+            <div>
+                <a href="mailto:info@unitie.co.uk" class="contactClient"> <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i> info@unitie.co.uk</a>
+            </div>
+        </div>
+        <div class="text-center">
+            <ul class="social" id="socialNav">
+                <li>
+                    <a class="btn btn-social-icon btn-twitter">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn btn-social-icon btn-facebook">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn btn-social-icon btn-linkedin">
+                        <span class="fa fa-linkedin"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+</body>
+<script>
+
+function focusMe(){
+  window.location = "./societyredis#register";
+}
+
+focusMe();
+
+</script>
