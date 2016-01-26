@@ -10,11 +10,20 @@ body {
     .aboutUsText p {
         font-size: 1.5em;
         text-align: center;
+        margin-top: 10px;
+        margin-left: -2em;
     }
     .aboutUsText h3 {
         font-size: 2em;
         text-align: center;
-        padding: 3em 0;
+        padding: 1.5em 0;
+    }
+
+    #suitcase, #gradHat {
+        border-style: none;
+        vertical-align: top;
+        max-width: 100%;
+        height: 100%;
     }
 
 
@@ -294,14 +303,18 @@ footer {
 
 
   .aboutUsText h3 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
     padding: 2.3em 0;
    }
 
    .aboutUsText p {
-    font-size: 0.8em;
+    font-size: 1em;
     text-align: center;
+    }
+
+    #chat, #present {
+        margin-top: -2em;
     }
 }
 
@@ -335,16 +348,22 @@ footer {
     #howItWorks img {
         max-width: 30%;
     }
+    
+    .aboutUsText p {
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .aboutUsText h3 {
+        font-size: 1.2em;
+        text-align: center;
+        padding:1em 0 6em 0;
+    }
 
-      .aboutUsText h3 {
-    font-size: 0.8em;
-    text-align: center;
-    padding: 2.3em 0;
-   }
-
-   .aboutUsText p {
-    font-size: 0.8em;
-    text-align: center;
+    #chat,  {
+        margin-top: -2em;
+    }
+    #present{
+        margin-top: -1em;
     }
    
 }
@@ -352,33 +371,52 @@ footer {
 @media screen and ( max-device-width: 600px) , only screen and ( max-width:600px ){  
 
     .aboutUsText p {
-        font-size: 0.5em;
+        font-size: 0.8em;
         text-align: center;
     }
     .aboutUsText h3 {
-        font-size: 0.8em;
+        font-size: 1.2em;
         text-align: center;
-        padding:0 0 25px 0;
+        padding:1em 0 6em 0;
+    }
+
+    #chat{
+        margin-top: -2em;
     }
 
 }
 
 @media screen and ( max-device-width: 450px) , only screen and ( max-width:450px ){  
+    .col-xs-6 {
+        padding:0;
+    }
+
     .aboutUsText p {
-        font-size: 7px;
+        font-size: 0.5em;
         text-align: center;
+        margin-left: -5em
+     
     }
     .aboutUsText h3 {
         font-size: 10px;
         text-align: center;
         padding:0 0 18px 0;
     }
-    #aboutUs img {
+    #suitcase, #gradHat {
         border-style: none;
         vertical-align: top;
         max-width: 100%;
-        height: 110px;
+        height: 150px;
     }
+
+    #present, #chat {
+        width: 2em;
+        height: 2em;
+        margin-top: 0;
+
+    }
+
+ 
 }
 
 
