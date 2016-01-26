@@ -58,7 +58,7 @@
                      <h3> We help student societies collaborate with brands to get sponsorship</h3>
             </div>
         </div>
-  </section>  
+  </section>
   <section id="whyUs">
     <div class="container whyUsWrapper">
       <div class="row">
@@ -234,7 +234,7 @@
 
   <section id="register" autofocus>
     <div class="container">
-        <form role="form" method="POST" action="/companyredis" class="hide" onsubmit=""> 
+        <form role="form" method="POST" action="/companyredis" class="hide" onsubmit="">
             <h1 class="text-center">SIGN UP NOW!</h1>
             <div class="row">
                 <div class="form-group required col-xs-6 col-md-4">
@@ -296,15 +296,18 @@
                 </div>
                 <div class="form-group col-xs-6 col-md-6">
                     <label for="phone">Phone</label>
-                    <input type="text" id="phone" placeholder="" class="form-control" value="07723469914">
+                    <input type="text" name="phone" id="phone" placeholder="" class="form-control" value="07723469914">
                 </div>
             </div>
             <div class="row">
                 <label for="targetRegion">Target Region(s) </label>
                 <div class="form-group col-xs-12 col-md-12">
+                  <div class="form-group col-xs-1 col-md-1">
                     <label for="targetRegion-All" class="checkbox-inline">
                         <input type="checkbox" name="targetRegion-All" id="targetRegion-All" checked>All
                     </label>
+                  </div>
+                  <div class="form-group col-xs-11 col-md-11">
                     <label for="target region1" class="checkbox-inline">
                         <input type="checkbox" name="targetRegion-East" id="targetRegion1">East
                     </label>
@@ -341,14 +344,18 @@
                     <label for="target region6" class="checkbox-inline">
                         <input type="checkbox" name="targetRegion-YorkshireandtheHumber" id="targetRegion-YorkshireandtheHumber">Yorkshire and the Humber
                     </label>
+                  </div>
                 </div>
             </div>
             <div class="row">
                 <label for="societyInterest">Student Societies Interested in Partnering with </label>
                 <div class="form-group col-xs-12 col-md-12">
+                  <div class="form-group col-xs-1 col-md-1">
                     <label for="socInterestAll" class="checkbox-inline">
                         <input type="checkbox" name="socInterest-All" id="socInterest-All" checked>All
                     </label>
+                  </div>
+                  <div class="form-group col-xs-11 col-md-11">
                     <label for="AcademicEmployability" class="checkbox-inline">
                         <input type="checkbox" name="socInterest-AcademicEmployability" id="AcademicEmployability">Academic & Employability
                     </label>
@@ -386,6 +393,7 @@
                     <label for="Other" class="checkbox-inline">
                         <input type="checkbox" name="socInterest-Other" id="Other">Other
                     </label>
+                  </div>
                 </div>
             </div>
             <div class="row">
@@ -402,7 +410,7 @@
     </output>
 </section>
 {{>contactus}}
- 
+
 </body>
 
 <script>
@@ -413,7 +421,7 @@
 function focusMe(){
   window.location = "./companyredis#register";
 }
-  
+
 focusMe();
 
 </script>
