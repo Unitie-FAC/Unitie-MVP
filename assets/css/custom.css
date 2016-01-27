@@ -272,10 +272,11 @@ a:hover {
 }
 
 .leftLine {
-    padding: 4px;
+
+    padding-left: 3em;
     border-left-style: solid;
-    border-left-width: 0.2em;
-    border-left-color: #c8d9e9;
+    border-left-width: 1px;
+    border-left-color: #9CAFB7;
     height: 100%;
 }
 
@@ -327,6 +328,10 @@ footer {
 
     #howItWorks img {
     max-width: 40%;
+    }
+
+    .leftLine {
+        display: none;
     }
 }
 
