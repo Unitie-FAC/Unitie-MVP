@@ -1,19 +1,19 @@
-<h1>Welcome to admin</h1>
-<button type="button" name="society"><a href="/societydashboard">Society Dashboard</a></button>
-<button type="button" name="company"><a href="/companydashboard">Company Dashboard</a></button>
-<div id="login">
-    <form role="form" method="get" id="loginform" onsubmit="verifyUser();return false;">
-        <input type="text" id="username" placeholder="Username">
-        <input type="password" id="password" placeholder="Password">
-        <button>Submit</button>
-    </form>
+<div class="text-center">
+    <h1>Welcome to admin</h1>
+    <button type="button" name="society"><a href="/societydashboard">Society Dashboard</a></button>
+    <button type="button" name="company"><a href="/companydashboard">Company Dashboard</a></button>
+</div>
+<div id="login" class="text-center">
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button id="checkPword">Submit</button>
+    <br/>
+    <div id="demo"></div>
 </div>
 <script>
-window.onload = ReadCookie();
-
 function ReadCookie() {
     var allcookies = document.cookie;
-    cookiearray = allcookies.split(';');
+    var cookiearray = allcookies.split(';');
     var usercookiearr = [];
     for (var i = 0; i < cookiearray.length; i++) {
         cookiearray[i].split('=')[0].indexOf('username') !== -1 ? usercookiearr.push(cookiearray[i].split('=')[1]) : false;
@@ -24,40 +24,53 @@ function ReadCookie() {
 }
 
 
+window.onload = ReadCookie();
+
+
+
+function addToCookie(value) {
+    var now = new Date();
+    var time = now.getTime();
+    time += 3600 * 100000;
+    now.setTime(time);
+    document.cookie =
+        'username=' + value +
+        '; expires=' + now.toUTCString() +
+        '; path=/';
+}
 
 
 
 
-
-
-
-
-function verifyUser() {
-    var usernamePassword ;
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (xhttp.readyState == 4 && xhttp.status == 200) {
-           usernamePassword = responseText;
-           userPwordArr = usernamePassword.split()
-        }
-    };
-    xhttp.open("GET", "password", true);
-    xhttp.send();
-
-
+function checkpword() {
     var userName = document.getElementById('username').value;
     var password = document.getElementById('password').value;
-    if (userName === 'Unitie' && password === '2016') {
-        document.getElementById('login').classList.add('hidden');
-        var value = "verified";
-        var now = new Date();
-        var time = now.getTime();
-        time += 3600 * 100000;
-        now.setTime(time);
-        document.cookie =
-            'username=' + value +
-            '; expires=' + now.toUTCString() +
-            '; path=/';
-    }
+
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (xhttp.readyState === 4 && xhttp.status === 200) {
+
+
+            var response = xhttp.responseText;
+
+            if (response === 'verified') {
+                document.getElementById('login').classList.add('hidden');
+                addToCookie(response);
+            } else {
+                document.getElementById("demo").innerHTML = response + ' try again !';
+            }
+
+        }
+    };
+
+    xhttp.open("POST", "password", true);
+    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhttp.send("username=" + userName + "&password=" + password);
+
 }
+
+document.getElementById('checkPword').addEventListener('click', function() {
+    checkpword();
+});
 </script>
