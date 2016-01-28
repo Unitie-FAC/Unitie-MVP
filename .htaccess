@@ -1,1 +1,7 @@
-AddType video/mp4 mp4
+AddType video/mp4 .mp4
+
+<FilesMatch mp4>
+Satisfy any
+order allow,deny
+allow from all
+</FilesMatch>
