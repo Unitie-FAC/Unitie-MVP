@@ -29,7 +29,6 @@ node_modules
 .env
 *.mp4
 *.webm
-*.png
 *.jpg
 
 
