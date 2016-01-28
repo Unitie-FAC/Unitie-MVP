@@ -169,6 +169,10 @@ a:hover {
     background-color: #c8d9e9;
 }
 
+.checkBoxWrapper {
+    margin-left: 0.3em;
+}
+
 .form-group.required .control-label:after {
     content: "*";
     color: red;
@@ -330,9 +334,7 @@ footer {
     max-width: 40%;
     }
 
-    .leftLine {
-        display: none;
-    }
+   
 }
 
 
@@ -417,12 +419,15 @@ footer {
     .aboutUsText h3 {
         font-size: 10px;
         text-align: center;
-        padding:0 0 18px 0;
+        padding:0 0 3em 0;
     }
 
     .leftLine {
-      padding: 0px;
-      border-left-style: none;
+            padding-left: 0emm;
+    border-left-style: solid;
+    border-left-width: 0;
+    border-left-color: none;
+    height: 100%;
     }
 
     .suitcase, .gradHat {
@@ -438,6 +443,9 @@ footer {
         margin-top: 0;
 
     }
-
+    
+    .checkBoxWrapper {
+       margin-left:0em;
+    }
 
 }
