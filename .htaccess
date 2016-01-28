@@ -1,8 +1,7 @@
 AddType video/mp4 .mp4
 
-<Files ~ "\.(mp4|m4v)">
-    AddType video/mp4 mp4
-    order allow,deny
-    allow from all
-    satisfy any
-</Files>
+<FilesMatch mp4>
+Satisfy any
+order allow,deny
+allow from all
+</FilesMatch>
