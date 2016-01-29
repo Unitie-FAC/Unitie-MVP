@@ -327,10 +327,10 @@ normal;font-weight: 400;Margin-bottom: 0;Margin-top: 24px;font-size: 15px;line-h
                         </div>
                       </a>
                       <div style="Margin-bottom: 5px;">
-                        <forwardtoafriend class="forwardtoafriend" style="font-family: &quot;Open Sans&quot;,sans-serif;background-image: url(https://i6.createsend1.com/static/eb/master/03-fresh/imgf/forward.png);background-repeat: no-repeat;background-size: 200px 56px;border-radius: 2px;color: #ffffff;display: block;font-size: 11px;font-weight: bold;line-height: 11px;padding: 8px 11px 7px 28px;text-align: left;text-decoration: none;background-color: #7b7c7d;"
+                      <!--  <forwardtoafriend class="forwardtoafriend" style="font-family: &quot;Open Sans&quot;,sans-serif;background-image: url(https://i6.createsend1.com/static/eb/master/03-fresh/imgf/forward.png);background-repeat: no-repeat;background-size: 200px 56px;border-radius: 2px;color: #ffffff;display: block;font-size: 11px;font-weight: bold;line-height: 11px;padding: 8px 11px 7px 28px;text-align: left;text-decoration: none;background-color: #7b7c7d;"
                         cs-button data-vml-width="85" left-align-text="true">
                           Forward
-                        </forwardtoafriend>
+                        </forwardtoafriend> -->
                       </div>
                     </div>
                   </td>
