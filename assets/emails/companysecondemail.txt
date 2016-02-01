@@ -173,7 +173,8 @@ alt="" width="200" height="200">
 <h1 class="size-30" style="font-style: normal;font-weight: 400;Margin-bottom: 0;Margin-top: 0;font-size: 30px;line-height: 38px;font-family: Cabin,Avenir,sans-serif;color: #44a8c7;text-align: center;">&nbsp; Launching soon!</h1>
 <blockquote style="font-style: italic;font-weight: 400;Margin-left: 0;Margin-right: 0;padding-right: 0;Margin-bottom: 0;Margin-top: 20px;padding-left: 18px;border-left: 4px solid #f5f7fa;">
   <p style="font-style: normal;font-weight: 400;Margin-bottom: 0;Margin-top: 0;font-size: 15px;line-height: 24px;font-family: &quot;Open Sans&quot;,sans-serif;color: #60666d;">We're launching any minute now! So sit tight, and we'll give you a shout once the platform is up and running!</p>
-  <p style="font-style: normal;font-weight: 400;Margin-bottom: 0;Margin-top: 24px;font-size: 15px;line-height: 24px;font-family: &quot;Open Sans&quot;,sans-serif;color: #60666d;">In the meantime, if you have questions or if would like us to assist you in a campaign targeted towards the student demographic, just drop us an email!</p>
+  <p style="font-style: normal;font-weight: 400;Margin-bottom: 0;Margin-top: 24px;font-size: 15px;line-height: 24px;font-family: &quot;Open Sans&quot;,sans-serif;color: #60666d;">
+In the meantime, if you have any questions or if you would like us to assist you in a campaign targeted towards the student demographic, just drop us an email!</p>
   <p style="font-style: normal;font-weight: 400;Margin-bottom: 0;Margin-top: 24px;font-size: 15px;line-height: 24px;font-family: &quot;Open Sans&quot;,sans-serif;color: #60666d;">The Unitie Team</p>
 </blockquote>
 <p style="font-style: normal;font-weight: 400;Margin-bottom: 0;Margin-top: 24px;font-size: 15px;line-height: 24px;font-family: &quot;Open Sans&quot;,sans-serif;color: #60666d;">&nbsp;</p>
