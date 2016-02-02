@@ -92,7 +92,7 @@ a {
 }
 @media screen and (max-device-width: 800px) {
   body {
-    background-image: url(../images/firstframe.png);
+    background-image: url(../images/firstframe-min.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
