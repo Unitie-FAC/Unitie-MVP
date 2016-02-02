@@ -11,7 +11,7 @@
             <span class="icon-bar"></span>
           </button>
           <a href="/">
-            <img id="navLogo" src="../assets/images/newUnitie Logo.png">
+            <img id="navLogo" src="../assets/images/newUnitie Logo.png"></img>
           </a>
         </div>
         <div class="collapse navbar-collapse navbar-right" id="myNavbar">
@@ -220,14 +220,14 @@
     </div>
   </section>
 
-  <section id="register" autofocus>
+<section id="register" autofocus>
     <div class="container">
-        <form role="form" method="POST" action="/companyredis" class="hide" onsubmit="">
+        <form role="form" method="POST" action="/companyredis" onsubmit="">
             <h1 class="text-center">SIGN UP NOW!</h1>
             <div class="row">
                 <div class="form-group required col-xs-6 col-md-4">
                     <label class="control-label" for="companyName">Company Name</label>
-                    <input type="text" name="companyName" value="companyX" class="form-control required" required>
+                    <input type="text" name="companyName" placeholder="Company Name" class="form-control required" required>
                 </div>
                 <div class="required form-group col-xs-6 col-md-4">
                     <label class="control-label" for="industryType">Industry Type</label>
@@ -274,20 +274,20 @@
                 </div>
                 <div class="required form-group col-xs-6 col-md-4">
                     <label class="control-label" for="contactName">Contact Name</label>
-                    <input type="text" name="contactName" value="Mr B Riddle" class="form-control required" required>
+                    <input type="text" name="contactName" placeholder="Contact Name" class="form-control required" required>
                 </div>
             </div>
             <div class="row">
                 <div class="required form-group col-xs-6 col-md-6">
                     <label class="control-label" for="email">Email</label>
-                    <input type="email" name="email" value="companyX@X.com" class="form-control required" required>
+                    <input type="email" name="email" placeholder="Email" class="form-control required" required>
                 </div>
                 <div class="form-group col-xs-6 col-md-6">
                     <label for="phone">Phone</label>
-                    <input type="text" name="phone" id="phone" placeholder="" class="form-control" value="07723469914">
+                    <input type="text" name="phone" id="phone" placeholder="Phone" class="form-control" >
                 </div>
             </div>
-            <div class="row">
+            <div class="row checkBoxWrapper">
                 <label for="targetRegion">Target Region(s) </label>
                 <div class="form-group col-xs-12 col-md-12">
                   <div class="form-group col-xxs-1 col-md-2">
@@ -335,7 +335,7 @@
                   </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row checkBoxWrapper">
                 <label for="societyInterest">Student Societies Interested in Partnering with </label>
                 <div class="form-group col-xs-12 col-md-12">
                   <div class="form-group col-xxs-1 col-md-2">
@@ -393,10 +393,11 @@
     </div>
     <output class="text-center title" id="messageOut">
         <div id='successMessage' class='show text-center'>
-                   <h2>Thank you for signing up! We'll be in contact shortly!</h2>
-            <button onclick="hideNShowThankyou('#successMessage', 'form')">Sign up another Brand!</butotn>
+            <h2>Thank you for signing up! We'll be in contact shortly!</h2>
+            <button onclick="hideNShowThankyou('#successMessage', 'form')">Sign up another Brand!</button>
     </output>
 </section>
+
 {{>contactus}}
 
 </body>
