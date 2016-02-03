@@ -82,7 +82,7 @@
 
                             <h2 class="size-18" style='font-style: normal;font-weight: 700;Margin-bottom: 0;Margin-top: 0;font-size: 18px;line-height: 26px;font-family: "Open Sans",sans-serif;color: #44a8c7;'>&nbsp;</h2>
                             <h2 class="size-18" style='font-style: normal;font-weight: 700;Margin-bottom: 0;Margin-top: 16px;font-size: 18px;line-height: 26px;font-family: "Open Sans",sans-serif;color: #44a8c7;'>1.Create your Campaign</h2>
-                            <p style='font-style: normal;font-weight: 400;Margin-bottom: 0;Margin-top: 16px;font-size: 15px;line-height: 24px;font-family: "Open Sans",sans-serif;color: #60666d;'>Simply tell us a bit about your society and your plans, then we&#39ll help you build a great sponsorship campaign!</p>
+                            <p style='font-style: normal;font-weight: 400;Margin-bottom: 0;Margin-top: 16px;font-size: 15px;line-height: 24px;font-family: "Open Sans",sans-serif;color: #60666d;'>Simply tell us a bit about your society and your plans, then we'll help you build a great sponsorship campaign!</p>
 
                           </td>
                         </tr>
@@ -141,7 +141,7 @@
                             <h2 class="size-18" style='font-style: normal;font-weight: 700;Margin-bottom: 0;Margin-top: 16px;font-size: 18px;line-height: 26px;font-family: "Open Sans",sans-serif;color: #44a8c7;'>
                               <strong style="font-weight: bold;">2.Collaborate with Brands</strong>
                             </h2>
-                            <p style='font-style: normal;font-weight: 400;Margin-bottom: 0;Margin-top: 16px;font-size: 15px;line-height: 24px;font-family: "Open Sans",sans-serif;color: #60666d;'>With over 200 brands signed up, you&#39ll easily be able to find sponsorship partners on our platform!</p>
+                            <p style='font-style: normal;font-weight: 400;Margin-bottom: 0;Margin-top: 16px;font-size: 15px;line-height: 24px;font-family: "Open Sans",sans-serif;color: #60666d;'>With over 200 brands signed up, you'll easily be able to find sponsorship partners on our platform!</p>
 
                           </td>
                         </tr>
@@ -262,7 +262,7 @@
 
                             <h1 class="size-30" style="font-style: normal;font-weight: 400;Margin-bottom: 0;Margin-top: 0;font-size: 30px;line-height: 38px;font-family: Cabin,Avenir,sans-serif;color: #44a8c7;">&nbsp; We're launching soon!</h1>
                             <blockquote style="font-style: italic;font-weight: 400;Margin-left: 0;Margin-right: 0;padding-right: 0;Margin-bottom: 0;Margin-top: 20px;padding-left: 18px;border-left: 4px solid #f5f7fa;">
-                              <p style='font-style: normal;font-weight: 400;Margin-bottom: 0;Margin-top: 0;font-size: 15px;line-height: 24px;font-family: "Open Sans",sans-serif;color: #60666d;'>Our online platform is due to launch any minute now! So sit tight and we'll give you a shout when it&#39s ready!</p>
+                              <p style='font-style: normal;font-weight: 400;Margin-bottom: 0;Margin-top: 0;font-size: 15px;line-height: 24px;font-family: "Open Sans",sans-serif;color: #60666d;'>Our online platform is due to launch any minute now! So sit tight and we'll give you a shout when it's ready!</p>
                               <p style='font-style: normal;font-weight: 400;Margin-bottom: 0;Margin-top: 24px;font-size: 15px;line-height: 24px;font-family: "Open Sans",sans-serif;color: #60666d;'>The Unitie Team&nbsp;</p>
                               <p style='font-style:
 normal;font-weight: 400;Margin-bottom: 0;Margin-top: 24px;font-size: 15px;line-height: 24px;font-family: "Open Sans",sans-serif;color: #60666d;'>&nbsp;</p>
